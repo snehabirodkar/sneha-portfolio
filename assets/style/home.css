@@ -1,0 +1,62 @@
+.small-title {
+    margin: 0px 0px 30px 4px;
+    color: #64ffda;
+    font-size: 1.4rem;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.home-heading {
+    color: #c2c7e5;
+    margin-top: 1rem;
+    font-size: 3rem;
+    line-height: 1;
+
+}
+
+.home-heading span {
+    color: #c2c7e5;
+    line-height: 1;
+    opacity: .5;
+    font-size: 5rem;
+}
+
+.content-home {
+    padding: 120px 150px;
+    height: 100vh;
+}
+
+.home-para {
+    color: #c2c7e5;
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    max-width: 500px;
+    line-height: 25px;
+}
+
+.get-in-touch {
+
+    text-decoration: none;
+    display: inline-block;
+
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    margin-top: 50px;
+
+}
+
+.get-in-touch:hover {
+
+    background-color: transparent;
+    border-radius: 4px;
+}
+
