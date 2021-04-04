@@ -1,0 +1,51 @@
+.flex-skills {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content:space-around;
+    
+  }
+  .skills-bg{
+      /* background: yellow; */
+      width: 300px;
+      /* height: 300px; */
+      /* padding-left: 25px; */
+      padding: 30px 0;
+  }
+
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-skills{
+      /* flex-direction: column; */
+      display: block;
+    }
+  }
+
+  h4.bg-heading {
+	border: solid 1px #70e7c6;
+	padding: 10px 60px;
+	font-size: 18px;
+	font-weight: 600;
+	display: inline-block;
+	border-radius: 5px;
+  color:#c2c7e5 ;
+}
+
+.uu li {
+	padding-top: 25px;
+	font-weight:lighter;
+	color: #c2c7e5;
+	font-size: 18px;
+  
+}
+ .list-unstyled li::before {
+    content: "▹";
+    color: #64ffda;
+    font-size: 20px;
+    line-height: 12px;
+    transform: translateY(4px);
+    margin-right: 10px;
+}
+.list-unstyled ul li{
+  padding-left: 10px;
+}

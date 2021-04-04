@@ -1,0 +1,80 @@
+
+  .container1 {
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .container1 .tabs {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: max-content;
+  }
+  .container1 .tabs .tab {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 0;
+    transition: all 0.25s ease;
+    border-left: 2px solid #5f6368;
+    color: #5f6368;
+  }
+  .container1 .tabs .tab:hover {
+    color: #fff;
+  }
+  .container1 .tabs .tab.active {
+    color: #fff;
+  }
+  .container1 .tabs .tab.tab-1.active ~ .highlighter {
+    transform: translateY(0px);
+  }
+  .container1 .tabs .tab.tab-2.active ~ .highlighter {
+    transform: translateY(40px);
+  }
+  .container1 .tabs .tab.tab-3.active ~ .highlighter {
+    transform: translateY(80px);
+  }
+  .container1 .tabs .highlighter {
+    display: block;
+    background: #fff;
+    width: 2px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+    transition: transform 0.2s ease;
+    transition-delay: 0.1s;
+    z-index: 10;
+  }
+  .container1 .tabs a:first-of-type {
+    border-top-left-radius: 2px;
+  }
+  .container1 .tabs a:last-of-type {
+    border-top-right-radius: 2px;
+  }
+  .container1 .content {
+    position: relative;
+    padding: 0 20px;
+  }
+  .container1 .content__section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0s ease;
+  }
+  .container1 .content__section.visible {
+    position: relative;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+    z-index: 2;
+  }

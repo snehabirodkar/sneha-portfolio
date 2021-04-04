@@ -22,30 +22,28 @@
 }
 
 .content-home {
-    padding: 120px 150px;
-    height: 100vh;
+    padding: 120px 0 40px 150px;
+    /* height: 100vh; */
 }
+.mobile-content-home{
 
+}
 .home-para {
     color: #c2c7e5;
     margin-top: 2.5rem;
-    font-size: 1.2rem;
-    max-width: 500px;
+    font-size: 1.5rem;
+    max-width: 600px;
     line-height: 25px;
 }
 
 .get-in-touch {
-
-    text-decoration: none;
     display: inline-block;
-
     color: #64ffda;
     background-color: transparent;
     border: 1px solid #64ffda;
     border-radius: 4px;
     padding: 12px 20px;
     font-size: 1.2rem;
-
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
@@ -60,3 +58,118 @@
     border-radius: 4px;
 }
 
+/* *********Mobile Responsive* ******/
+@media (max-width:1024){
+    
+}
+@media screen and (max-width:768){
+    .content-home {
+        padding: 120px 20px 40px 50px;
+        
+    }
+    
+    .small-title {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: 18px;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
+    
+    .home-heading {
+        color: #c2c7e5;
+        margin-top: 15px;
+        font-size: 28px;
+        line-height: 1;
+    
+    }
+    
+    .home-heading span {
+        color: #c2c7e5;
+        line-height: 1;
+        opacity: .5;
+        font-size: 35px;
+        font-weight:800;
+    }
+    
+    .home-para {
+        color: #c2c7e5;
+        margin-top: 2.5rem;
+        font-size: 18px;
+        max-width: 500px;
+        line-height: 20px;
+    }
+    
+    .get-in-touch {
+        display: inline-block;
+        color: #64ffda;
+        background-color: transparent;
+        border: 1px solid #64ffda;
+        border-radius: 4px;
+        padding: 12px 20px;
+        font-size: 1.2rem;
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all .25s ease-in-out;
+        margin-top: 50px;
+    
+    }
+}
+@media screen and (max-width: 640px){
+    .content-home {
+        padding: 120px 20px 40px 50px;
+        
+    }
+    
+    .small-title {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: 18px;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
+    
+    .home-heading {
+        color: #c2c7e5;
+        margin-top: 15px;
+        font-size: 28px;
+        line-height: 1;
+    
+    }
+    
+    .home-heading span {
+        color: #c2c7e5;
+        line-height: 1;
+        opacity: .5;
+        font-size: 35px;
+        font-weight:800;
+    }
+    
+    .home-para {
+        color: #c2c7e5;
+        margin-top: 2.5rem;
+        font-size: 18px;
+        max-width: 500px;
+        line-height: 20px;
+    }
+    
+    .get-in-touch {
+        display: inline-block;
+        color: #64ffda;
+        background-color: transparent;
+        border: 1px solid #64ffda;
+        border-radius: 4px;
+        padding: 12px 20px;
+        font-size: 1.2rem;
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all .25s ease-in-out;
+        margin-top: 50px;
+    
+    }
+    .social-fixed{
+        display: none;
+    }
+}
