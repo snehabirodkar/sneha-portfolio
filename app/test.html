@@ -72,6 +72,46 @@
         </div>
     </section>
 
+
+
+
+
+
+
+
+   
+    <div class="show-more-item">blah</div>
+<div class="show-more-item">blah</div>
+
+<div class="show-more-item" style="display: none;">blah</div>
+<div class="show-more-item" style="display: none;">blah</div>
+<div class="show-more-item" style="display: none;">blah</div>
+<div class="show-more-item" style="display: none;">blah</div>
+<div class="show-more-item" style="display: none;">blah</div>
+<div class="show-more-item" style="display: none;">blah</div>
+
+<div class="show-more-btn">Load More</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section id="portfolio">
         <div class="content-box-lg">
             <div class="container">
@@ -257,7 +297,16 @@
 
     <!-- Custom JS -->
     <script src="../assets/script/script.js"></script>
-
+    <script>
+        jQuery(document).ready(function ($) {
+      $(".show-more-btn").click(function (e) {
+        $(".show-more-item:hidden").slice(0).fadeIn();
+        if ($(".show-more-item:hidden").length < 1) $(this).fadeOut();
+      });
+    });
+    
+    </script>
+    
     <script>
         var typed = new Typed("#typer", {
             strings: ['Skills', 'Passionate Engineer', 'Web Developer', 'Web Designer', 'UI/UX Designer',

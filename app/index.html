@@ -132,10 +132,10 @@
                 <div class="skills-bg">
                     <h4 class="bg-heading">#Languages</h4>
                     <ul class="list-unstyled uu">
+                        <li>C / C++</li>
                         <li>HTML/CSS</li>
                         <li>Javascript / jquery</li>
-                        <li>PHP</li>
-                        <li>Laravel</li>
+                        <li>PHP / Laravel</li>
                         <li>Java</li>
                         <li>Kotlin</li>
                         <li>MYSQL</li>
@@ -144,13 +144,13 @@
                 <div class="skills-bg">
                     <h4 class="bg-heading">#Design Skills</h4>
                     <ul class="list-unstyled uu">
-                        <li>Adobe Photoshop</li>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe XD</li>
-                        <li>Figma</li>
                         <li>Wireframe / Prototype</li>
-                        <li>UI / UX</li>
-                        <li>frontend development</li>
+                        <li>Frontend Designing</li>
+                        <li>Product Designing</li>
+                        <li>Branding</li>
+                        <li>Illustrations / Doodle</li>
+                        <li>UI Kits</li>
+                        <li>User Experience</li>
                         <li>Iconography</li>
                     </ul>
                 </div>
@@ -176,10 +176,11 @@
             <h2 class="numbered-heading"> <span>04.</span> "My Projects" </h2>
             <div class="project-container">
                 <!-- Project1 -->
-                <div class="project">
+                <div class="project show-more-item">
                     <div class="project-content">
                         <div class="project-label">Invoice Management</div>
                         <h4 class="project-title">PHP ERP</h4>
+                        <h4 class="project-label">May 2020</h4>
                         <div class="project-details">
                             <p>Lorem ipsum dolor amet you probably haven't heard of them bitters selvage listicle
                                 heirloom. Locavore kombucha street art ennui 90's, organic food truck hell of seitan
@@ -191,6 +192,9 @@
                                 <li>PHP</li>
                                 <li>Laravel</li>
                                 <li>MYSQL</li>
+                                <li class="project-link"><a class="sociali twitter" href="#" aria-label="Twitter">
+                                        <i class="fa fa-external-link" title="Twitter"></i></a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -199,40 +203,69 @@
                     </div>
                 </div>
                 <!-- /Pr1 -->
-                
+
                 <!-- Project2 -->
-                <div class="project">
+                <div class="project2 show-more-item">
                     <div class="project-content2">
                         <div class="project-img2">
                             <img src="../assets/images/Home/sneha.jpeg" alt="" />
                         </div>
                     </div>
-                    
+
                     <div class="project2-right">
-                        <div class="project-label">Invoice Management</div>
-                    <h4 class="project-title">PHP ERP</h4>
+                        <div class="project2-label">Invoice Management</div>
+                        <h4 class="project2-title">PHP ERP</h4>
+                        <div class="project-label2">May 2020</div>
                         <div class="project2-details">
                             <p>Lorem ipsum dolor amet you probably haven't heard of them bitters selvage listicle
                                 heirloom. Locavore kombucha street art ennui 90's, organic food truck hell of seitan
                                 skateboard literally hexagon fixie next level. Lomo salvia yuccie hella roof party echo
                                 park vegan four dollar toast cred.</p>
                         </div>
-                        <div class="tag-list">
+                        <div class="tag-list2">
                             <ul>
                                 <li>PHP</li>
                                 <li>Laravel</li>
                                 <li>MYSQL</li>
+                                <li class="project-link"><a class="sociali twitter" href="#" aria-label="Twitter">
+                                        <i class="fa fa-external-link" title="Twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+
                 <!-- End of project 2 -->
+                <div class="container">
+                    <div class="project-flex-container">
+                        <div class="project-flex-item show-more-item" style="display: none;">
+                            <div class="project-card">
+
+                            </div>
+                        </div>
+
+                        <div class="project-flex-item show-more-item" style="display: none;">
+                            <div class="project-card">
+
+                            </div>
+                        </div>
+
+                        <div class="project-flex-item show-more-item" style="display: none;">
+                            <div class="project-card">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="show-more-btn">Load More</div>
+                <!-- End of Extra projects -->
             </div>
         </div>
-        </div>
-        </div>
+        <!-- Extra projects -->
     </section>
     <!-- End of my work -->
+
+
 
     <!-- Design Section -->
     <!-- <section id="design-section">
@@ -309,7 +342,7 @@
     <!-- <section id="extra-projects-section">
         <div class="content-home container">
             <h2 class="numbered-heading"> <span>06.</span> "Other Projects" </h2> -->
-            <!-- <div class="content">
+    <!-- <div class="content">
                         <a href="#">
                             <span>Category</span>
                             <h2>Card Title Here</h2>
@@ -323,7 +356,7 @@
                         </div>
                     </div> -->
 
-            <!-- <div class="row">
+    <!-- <div class="row">
                 <div class='col'>
                     <div class="card">
                         <h3>Prices</h3>
@@ -383,6 +416,14 @@
 
     <!-- Custom JS -->
     <script src="../assets/script/script.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".show-more-btn").click(function (e) {
+                $(".show-more-item:hidden").slice(0).fadeIn();
+                if ($(".show-more-item:hidden").length < 1) $(this).fadeOut();
+            });
+        });
+    </script>
     <script src="../assets/script/isotopes.js"></script>
 
 </body>

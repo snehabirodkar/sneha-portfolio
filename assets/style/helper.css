@@ -26,6 +26,11 @@ li{
     list-style: none;
     text-decoration: none;
 }
+
+.content-home {
+    padding: 120px 40px 40px 150px;
+    /* height: 100vh; */
+}
 /* *********** Social ************** */
 .social-fixed{
     position: fixed;
