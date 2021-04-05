@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    background: #00e1ff;
+    margin: -8px;
+  }
+  
+  .col {
+    display: flex;
+    flex: 1 0 400px;
+    flex-flow: column;
+    margin: 10px;
+    background: grey;
+  }
+  
+  .card {
+    display: flex;
+    padding: 20px;
+    height: 100%;
+    background: #002732;
+    color: white;
+    opacity: 0.5;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  
