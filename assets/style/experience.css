@@ -1,0 +1,59 @@
+/*Testimonial*/
+
+  .test-bg {
+    background-color: ghostwhite;
+    /* margin-top: -9px; */
+    width: 50%;
+    height: 328px;
+  }
+  
+  div.test-1,
+  .test-2,
+  .test-3 {
+    /* background-color: gainsboro; */
+    color: black;
+    padding: 17px 30px 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .text-testimonial {
+    /* background-color: gainsboro; */
+    padding: 15px;
+    /* display: table !important; */
+    /* vertical-align: middle; */
+    position: relative;
+    top: 31%;
+    text-align: justify;
+  }
+  .test-1:after,
+  .test-2:after,
+  .test-3:after {
+    width: 3px;
+    height: 85px;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    z-index: 1;
+    content: "";
+    background: red;
+  }
+  .test-1:after {
+    top: 10px;
+  }
+  .testimonial-text.text-right {
+    margin-top: 10px;
+  }
+  
+  .test-2:after {
+    bottom: 90px;
+  }
+  .test-3:after {
+    bottom: 10px;
+  }
+  
+  .changeafter:after {
+    content: "";
+    background: transparent !important;
+  }
+  
