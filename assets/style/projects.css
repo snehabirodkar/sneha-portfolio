@@ -1,3 +1,6 @@
+#more {
+  display: none;
+}
 .project-container {
   max-width: 1000px;
   margin: 50px auto;
@@ -8,7 +11,7 @@
 }
 
 .project {
-  margin: 30px;
+  margin: 30px 30px 30px 80px;
   display: flex;
   align-items: center;
   /* padding-left: 100px; */
@@ -129,7 +132,7 @@
 
 /* ************Project 2  ***************/
 .project2 {
-  /* margin: 30px; */
+  margin: 10px 30px 10px 80px;
   display: flex;
   align-items: center;
   /* padding-right: 50px; */
@@ -245,7 +248,7 @@
   margin: 10px 0 10px;
   color: #eee;
   padding-left: 244px;
-  transform: translateX(120px);
+  transform: translateX(95px);
 }
 
 .tag-list2 ul li:first-child {
@@ -343,4 +346,21 @@
 }
 .project-link-wrapper li{
   padding-right: 10px;
+}
+
+/* Button */
+.show-more{
+  display: inline-block;
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+    margin-top: 50px;
+    text-align: center;
 }
