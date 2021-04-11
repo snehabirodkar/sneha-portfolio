@@ -107,6 +107,29 @@ li{
     margin-left: 20px;
     background-color: #64ffda;
 }
+/* Button get in touch *******/
+.get-in-touch {
+  display: inline-block;
+  color: #64ffda;
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .25s ease-in-out;
+  margin-top: 50px;
+
+}
+
+.get-in-touch:hover {
+
+  background-color: transparent;
+  border-radius: 4px;
+}
+
 
 /* *********Mobile Responsive* ******/
 /* 

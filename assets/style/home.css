@@ -11,7 +11,6 @@
     margin-top: 1rem;
     font-size: 3rem;
     line-height: 1;
-
 }
 
 .home-heading span {
@@ -30,34 +29,91 @@
     max-width: 600px;
     line-height: 25px;
 }
-
-.get-in-touch {
-    display: inline-block;
-    color: #64ffda;
-    background-color: transparent;
-    border: 1px solid #64ffda;
-    border-radius: 4px;
-    padding: 12px 20px;
-    font-size: 1.2rem;
-    line-height: 1;
-    text-decoration: none;
-    cursor: pointer;
-    transition: all .25s ease-in-out;
-    margin-top: 50px;
-
-}
-
-.get-in-touch:hover {
-
-    background-color: transparent;
-    border-radius: 4px;
+.social-links-flex{
+    display: none;
 }
 
 /* *********Mobile Responsive* ******/
-@media (max-width:1024){
+@media (max-width:1024px){
+    .content-home {
+        padding: 130px 20px 40px 185px;
+      
+    }
+    
+    .small-title {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: 18px;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
+    
+    .home-heading {
+        color: #c2c7e5;
+        margin-top: 15px;
+        font-size: 45px;
+        line-height: 1;
+    
+    }
+    
+    .home-heading span {
+        color: #c2c7e5;
+        line-height: 1;
+        opacity: .5;
+        font-size: 45px;
+        font-weight:800;
+    }
+    
+    .home-para {
+        color: #c2c7e5;
+        margin-top: 2.5rem;
+        font-size: 18px;
+        max-width: 500px;
+        line-height: 20px;
+    }
     
 }
-@media screen and (max-width:768){
+
+@media screen and (max-width:768px){
+    .content-home {
+        padding: 130px 20px 40px 115px;
+        
+    }
+    
+    .small-title {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: 18px;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
+    
+    .home-heading {
+        color: #c2c7e5;
+        margin-top: 15px;
+        font-size: 28px;
+        line-height: 1;
+    
+    }
+    
+    .home-heading span {
+        color: #c2c7e5;
+        line-height: 1;
+        opacity: .5;
+        font-size: 35px;
+        font-weight:800;
+    }
+    
+    .home-para {
+        color: #c2c7e5;
+        margin-top: 2.5rem;
+        font-size: 18px;
+        max-width: 500px;
+        line-height: 20px;
+    }
+    
+}
+@media screen and (max-width: 600px){
     .content-home {
         padding: 120px 20px 40px 50px;
         
@@ -94,137 +150,99 @@
         max-width: 500px;
         line-height: 20px;
     }
-    
-    .get-in-touch {
-        display: inline-block;
-        color: #64ffda;
-        background-color: transparent;
-        border: 1px solid #64ffda;
-        border-radius: 4px;
-        padding: 12px 20px;
-        font-size: 1.2rem;
-        line-height: 1;
-        text-decoration: none;
-        cursor: pointer;
-        transition: all .25s ease-in-out;
-        margin-top: 50px;
-    
-    }
-}
-@media screen and (max-width: 640px){
-    .content-home {
-        padding: 120px 20px 40px 50px;
-        
-    }
-    
-    .small-title {
-        margin: 0px 0px 30px 4px;
-        color: #64ffda;
-        font-size: 18px;
-        font-weight: 400;
-        box-sizing: border-box;
-    }
-    
-    .home-heading {
-        color: #c2c7e5;
-        margin-top: 15px;
-        font-size: 28px;
-        line-height: 1;
-    
-    }
-    
-    .home-heading span {
-        color: #c2c7e5;
-        line-height: 1;
-        opacity: .5;
-        font-size: 35px;
-        font-weight:800;
-    }
-    
-    .home-para {
-        color: #c2c7e5;
-        margin-top: 2.5rem;
-        font-size: 18px;
-        max-width: 500px;
-        line-height: 20px;
-    }
-    
-    .get-in-touch {
-        display: inline-block;
-        color: #64ffda;
-        background-color: transparent;
-        border: 1px solid #64ffda;
-        border-radius: 4px;
-        padding: 12px 20px;
-        font-size: 1.2rem;
-        line-height: 1;
-        text-decoration: none;
-        cursor: pointer;
-        transition: all .25s ease-in-out;
-        margin-top: 50px;
-    
-    }
-    .social-fixed{
+    .social-links{
         display: none;
     }
+    
+    .social-links-flex {
+        padding-top: 30px;
+        display: flex;
+    }
 }
-@media (min-width: 1281px) {
-  
-    /* CSS */
+@media screen and (max-width: 500px) {
+    .content-home {
+        padding: 150px 20px 40px 50px;
+        height: 100vh;
+        /* background: red; */
+
+    }
     
-  }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
+    .small-title {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: 18px;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
     
-    /* CSS */
+    .home-heading {
+        color: #c2c7e5;
+        margin-top: 15px;
+        font-size: 28px;
+        line-height: 1;
     
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
+    }
     
-    /* CSS */
+    .home-heading span {
+        color: #c2c7e5;
+        line-height: 1;
+        opacity: .5;
+        font-size: 35px;
+        font-weight:800;
+    }
     
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .home-para {
+        color: #c2c7e5;
+        margin-top: 2.5rem;
+        font-size: 18px;
+        max-width: 500px;
+        line-height: 20px;
+    }
+    .social-links-flex {
+        padding-top: 30px;
+        display: flex;
+    }
+}
+/* Galaxy fold */
+@media screen and (max-width: 360px) {
+    .content-home {
+        padding: 150px 20px 40px 50px;
+        /* background: red; */
+        height: 100vh;
+    }
     
-    /* CSS */
+    .small-title {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: 15px;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
     
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
+    .home-heading {
+        color: #c2c7e5;
+        margin-top: 15px;
+        font-size: 25px;
+        line-height: 1;
     
-    /* CSS */
+    }
     
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
+    .home-heading span {
+        color: #c2c7e5;
+        line-height: 1;
+        opacity: .5;
+        font-size: 30px;
+        font-weight:800;
+    }
     
-    /* CSS */
-    
-  }
+    .home-para {
+        color: #c2c7e5;
+        margin-top: 2.5rem;
+        font-size: 18px;
+        max-width: 500px;
+        line-height: 20px;
+    }
+    .social-links-flex{
+        display: flex;
+    }
+}
