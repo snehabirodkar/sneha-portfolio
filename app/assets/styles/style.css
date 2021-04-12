@@ -1,0 +1,17 @@
+/* 
+* File Architecture
+* Identify patterns in the design
+* rules to be followed to name the classes of CSS
+* B - BLOCK
+* E - ELEMENT
+* M - MODIFIER
+ */
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global";
+
+
+@import "modules/_home";
+
+

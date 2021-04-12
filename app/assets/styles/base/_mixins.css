@@ -1,0 +1,31 @@
+/*
+1. extra small - devices < 576px width
+2. small devices < 768px width
+3. medium creen < 992px width
+4. large screen < 1200px width
+5. extra large >= 1200px width
+
+*/
+
+
+@define-mixin smallScreen{
+	@media(min-width:576px){
+		@mixin-content
+	}
+}
+
+@define-mixin mediumScreen{
+	@media(min-width:768px){
+		@mixin-content
+	}
+}
+@define-mixin largeScreen{
+	@media(min-width:992px){
+		@mixin-content
+	}
+}
+@define-mixin extraLargeScreen{
+	@media(min-width:1200px){
+		@mixin-content
+	}
+}
