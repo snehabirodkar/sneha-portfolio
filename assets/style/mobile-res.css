@@ -38,6 +38,7 @@
     .flex-container {
         display: block;
     }
+
     .flex-item-left {
         padding: 10px 30px 10px 10px;
         flex: 50%;
@@ -45,9 +46,11 @@
         text-align: left;
         color: #c2c7e5;
     }
-    .about-img{
+
+    .about-img {
         padding-left: 80px;
     }
+
     /* skills section */
     h4.bg-heading {
         border: solid 1px #70e7c6;
@@ -56,23 +59,26 @@
         font-weight: bold;
         display: inline-block;
         border-radius: 5px;
-      color:#c2c7e5 ;
+        color: #c2c7e5;
     }
-    
+
     .uu li {
         padding-top: 25px;
         font-weight: 600;
         color: #c2c7e5;
         font-size: 16px;
-      
+
     }
+
     /* project */
-    .project-flex-container{
+    .project-flex-container {
         display: none;
     }
-    .project{
+
+    .project {
         margin: 6px 0px 14px 10px;
     }
+
     .project-details {
         position: relative;
         font-size: 15px;
@@ -81,11 +87,13 @@
         width: 405px;
         transform: translate(-33px, 10px);
     }
+
     .project-img img {
         width: 383px;
         height: 290px;
-        
+
     }
+
     .project2-details {
         position: relative;
         font-size: 15px;
@@ -93,45 +101,53 @@
         color: #aaa;
         width: 405px;
     }
+
     .project2 {
         margin: 50px 30px 10px 0px;
         display: flex;
         align-items: center;
         /* padding-right: 50px; */
     }
+
     .project-img2 img {
         width: 383px;
         height: 290px;
-        
+
     }
+
     .project2-label {
         /* padding-left: 215px; */
         color: #64ffda;
         font-family: monospace;
         /* transform: translateX(120px); */
     }
+
     .tag-list2 {
         padding-left: 40px;
     }
-    .mobile-projects{
+
+    .mobile-projects {
         display: none;
     }
-    .project-flex-item{
+
+    .project-flex-item {
         width: 340px;
-        
+
     }
-    .project-flex-container{
+
+    .project-flex-container {
         display: flex;
-    /* padding: 15px 15px 15px 75px; */
-    flex-wrap: wrap;
-    margin: auto;
-    padding-top: 50px;
+        /* padding: 15px 15px 15px 75px; */
+        flex-wrap: wrap;
+        margin: auto;
+        padding-top: 50px;
     }
+
     .small-project-card img {
         width: 300px;
         height: 200px;
     }
-    
+
 }
 
 @media screen and (max-width:768px) {
@@ -203,6 +219,7 @@
         color: #c2c7e5;
         /* font-weight: lighter; */
     }
+
     .about-img {
         width: 250px;
         height: 250px;
@@ -211,46 +228,52 @@
         border-radius: 8px;
         /* transform: translate(-73px, 14px); */
         /* padding-left: 80px; */
-      }
-      /* skills */
-      /* .flex-skills{
+    }
+
+    /* skills */
+    /* .flex-skills{
         display: block;
     } */
-     /* skills section */
-     h4.bg-heading {
+    /* skills section */
+    h4.bg-heading {
         border: solid 1px #70e7c6;
         padding: 8px 40px;
         font-size: 16px;
         font-weight: bold;
         display: inline-block;
         border-radius: 5px;
-      color:#c2c7e5 ;
+        color: #c2c7e5;
     }
-    
+
     .uu li {
         padding-top: 25px;
         font-weight: 600;
         color: #c2c7e5;
         font-size: 18px;
-      
+
     }
+
     /* projects */
-    .project{
+    .project {
         display: none;
     }
-    .project2{
+
+    .project2 {
         display: none;
-    } 
-    .project-flex-container{
+    }
+
+    .project-flex-container {
         display: block;
         /* padding: 15px 15px 15px 75px; */
         /* flex-wrap: wrap; */
     }
-    .project-flex-item{
+
+    .project-flex-item {
         width: 400px;
         margin: auto;
     }
-    .mobile-projects{
+
+    .mobile-projects {
         display: block;
     }
 }
@@ -321,25 +344,26 @@
         font-size: 16.5px;
         text-align: left;
         color: #c2c7e5;
-        /* font-weight: lighter; */
-        /* padding-left: 140px; */
     }
-    /* skills */
-    /* .flex-skills{
-        display: block;
-    } */
+
     /* projects */
-    .project{
+    .project {
         display: none;
     }
-    .project2{
+
+    .project2 {
         display: none;
-    } 
-    .project-flex-container{
-        display: block;
     }
-    .mobile-projects{
+
+    .project-flex-container {
         display: block;
     }
 
+    .mobile-projects {
+        display: block;
+    }
+
+    footer {
+        text-align: center;
+    }
 }
