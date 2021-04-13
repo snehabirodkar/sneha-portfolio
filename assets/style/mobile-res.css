@@ -276,6 +276,44 @@
     .mobile-projects {
         display: block;
     }
+    /* contact */
+    .counter-right {
+        margin: 5px;
+        height: 160px;
+        width: 150px;
+       
+    }
+    .counter-left {
+        margin: 5px;
+        height: 160px;
+        width: 150px;
+       
+    }
+    .number {
+        padding-top: 4px;
+        text-align: center;
+        font-size: 50px;
+        color: #64ffda;
+    }
+    .contact-left {
+        /* display: flex; */
+        flex: 50%;
+        padding-left: 150px;
+        padding-bottom: 20px;
+        /* justify-content: center; */
+    }
+    .form-control{
+        width: 400px;
+    }
+    .form-control-textarea{
+        width: 400px;
+    }
+    .contact-para{
+        padding: 20px 20px 20px 0;
+    }
+    footer {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -362,7 +400,37 @@
     .mobile-projects {
         display: block;
     }
-
+    /* contact */
+    .counter-right {
+        margin: 5px;
+        height: 138px;
+        width: 130px;
+       
+    }
+    .counter-left {
+        margin: 5px;
+        height: 138px;
+        width: 130px;
+       
+    }
+    .number {
+        padding-top: 4px;
+        text-align: center;
+        font-size: 50px;
+        color: #64ffda;
+    }
+    .contact-left {
+        /* display: flex; */
+        flex: 50%;
+        padding-left: 50px;
+        /* justify-content: center; */
+    }
+    .form-control{
+        width: 350px;
+    }
+    .form-control-textarea{
+        width: 350px;
+    }
     footer {
         text-align: center;
     }
