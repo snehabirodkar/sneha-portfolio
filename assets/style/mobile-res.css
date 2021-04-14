@@ -1,5 +1,4 @@
-@media screen and (max-width:400px) {}
-
+@media screen and (max-width:1519px) {}
 
 @media screen and (max-width:1349px) {}
 
@@ -148,6 +147,69 @@
         height: 200px;
     }
 
+    /* contact */
+    .counter-right {
+        margin: 5px;
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .counter-left {
+        margin: 5px;
+        height: 200px;
+        width: 300px;
+
+    }
+
+    .contact-left {
+        /* display: flex; */
+        flex: unset;
+        /* padding-left: 150px;
+        padding-bottom: 20px;  */
+        margin: auto;
+        width: 300px;
+        /* justify-content: center; */
+    }
+
+    .wrap-contact {
+        flex: unset;
+    }
+
+    /* Testimonial */
+    .testi-wrapper {
+        padding: 0px;
+    }
+
+    .circle-new img {
+        padding: 40px;
+    }
+
+    .testimonial-left {
+        margin: auto;
+        padding: 25px;
+        /* transform: translate(-122px, 28px); */
+    }
+
+    .testimonial-para {
+        padding: 0px;
+    }
+
+    .responsive .slick-next {
+        position: absolute;
+        top: 220px;
+        right: 31%;
+        left: 75%;
+    }
+
+    .responsive .slick-prev {
+        position: absolute;
+        top: 220px;
+        right: 45%;
+        left: 67%;
+        z-index: 88;
+    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -230,10 +292,6 @@
         /* padding-left: 80px; */
     }
 
-    /* skills */
-    /* .flex-skills{
-        display: block;
-    } */
     /* skills section */
     h4.bg-heading {
         border: solid 1px #70e7c6;
@@ -276,41 +334,89 @@
     .mobile-projects {
         display: block;
     }
+
+    /* Testimonial */
+    .testi-wrapper {
+        padding: 0px;
+    }
+
+    .circle-new img {
+        padding: 40px;
+    }
+
+    .testimonial-left {
+        margin: auto;
+        padding: 25px;
+        /* transform: translate(-122px, 28px); */
+    }
+
+    .testimonial-para {
+        padding: 0px;
+    }
+
+    .responsive .slick-next {
+        position: absolute;
+        top: 220px;
+        right: 31%;
+        left: 75%;
+    }
+
+    .responsive .slick-prev {
+        position: absolute;
+        top: 220px;
+        right: 45%;
+        left: 65%;
+        z-index: 88;
+    }
+
     /* contact */
     .counter-right {
         margin: 5px;
         height: 160px;
         width: 150px;
-       
+
     }
+
     .counter-left {
         margin: 5px;
         height: 160px;
         width: 150px;
-       
+
     }
+
     .number {
         padding-top: 4px;
         text-align: center;
         font-size: 50px;
         color: #64ffda;
     }
+
     .contact-left {
         /* display: flex; */
-        flex: 50%;
-        padding-left: 150px;
-        padding-bottom: 20px;
+        flex: unset;
+        /* padding-left: 150px;
+        padding-bottom: 20px;  */
+        margin: auto;
+        width: 300px;
         /* justify-content: center; */
     }
-    .form-control{
+
+    .wrap-contact {
+        flex: unset;
+    }
+
+    .form-control {
         width: 400px;
     }
-    .form-control-textarea{
+
+    .form-control-textarea {
         width: 400px;
     }
-    .contact-para{
+
+    .contact-para {
         padding: 20px 20px 20px 0;
     }
+
     footer {
         text-align: center;
     }
@@ -400,38 +506,88 @@
     .mobile-projects {
         display: block;
     }
+
+    /* Testimonial */
+    .testi-wrapper {
+        padding: 0px;
+    }
+
+    .circle-new img {
+        padding: 40px;
+    }
+
+    .testimonial-left {
+        margin: auto;
+        padding: 0px;
+    }
+
+    .testimonial-para {
+        padding: 0px;
+    }
+
+    .responsive .slick-next {
+        position: absolute;
+        top: 220px;
+        right: 31%;
+        left: 75%;
+    }
+
+    .responsive .slick-prev {
+        position: absolute;
+        top: 220px;
+        right: 45%;
+        left: 60%;
+        z-index: 88;
+    }
+
+    .responsive .slick-prev {
+        padding: 7px 17px;
+    }
+
+    .responsive .slick-next {
+        padding: 7px 17px;
+    }
+
     /* contact */
     .counter-right {
         margin: 5px;
         height: 138px;
         width: 130px;
-       
+
     }
+
     .counter-left {
         margin: 5px;
         height: 138px;
         width: 130px;
-       
+
     }
+
     .number {
         padding-top: 4px;
         text-align: center;
         font-size: 50px;
         color: #64ffda;
     }
+
     .contact-left {
         /* display: flex; */
         flex: 50%;
         padding-left: 50px;
         /* justify-content: center; */
     }
-    .form-control{
+
+    .form-control {
         width: 350px;
     }
-    .form-control-textarea{
+
+    .form-control-textarea {
         width: 350px;
     }
+
     footer {
         text-align: center;
     }
 }
+
+@media screen and (max-width:400px) {}
