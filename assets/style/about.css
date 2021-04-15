@@ -17,6 +17,8 @@
 }
 .flex-item-left p{
     padding-bottom: 20px;
+    /* text-align: justify; */
+    letter-spacing: 2px;
 }
 .flex-item-right {
     flex: 50%;

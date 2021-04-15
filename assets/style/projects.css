@@ -1,6 +1,9 @@
 #more {
   display: none;
 }
+#projects-section{
+  overflow-x: hidden;
+}
 
 /* .project-container {
   max-width: 1000px;
