@@ -1,5 +1,22 @@
+
+/*********************************************************
+                        PRELOADER JS
+*********************************************************/
+$(window).on('load',function(){
+    $("#preloader").delay(2000).fadeOut('slow');
+    console.log("inside loader");
+});
+
+
+// var loader = document.querySelector(".loader-wrapper")
+// window.addEventListener("load", vanish);
+
+// function vanish() {
+//   loader.classList.add("disppear");
+// }
 //   Navigation menu
-const nav = document.querySelector('.ham-btn');
+//   Navigation menu
+const nav = document.querySelector('.nav-icon');
 const text = document.querySelector('.links');
 const navpanel = document.getElementById('nav-wrapper');
 const line1 = document.getElementById('first');
@@ -22,24 +39,39 @@ function openMenu(){
         navpanel.style.zIndex = "9999";
         navpanel.classList.remove("closed");
         navpanel.classList.add("opened");
-        line1.style.transform = "rotate(45deg) translate(0px, 23px)";
-        line3.style.transform = "rotate(-45deg) translate(7px, -29px)";
+        // line1.style.transform = "rotate(45deg) translate(0px, 23px)";
+        // line3.style.transform = "rotate(-45deg) translate(7px, -29px)";
+        // line2.style.visibility = "hidden";
+        // line1.style.transition = "all .3s ease-in-out";
+        // line2.style.transition = "all .3s ease-in-out";
+        // line3.style.transition = "all .3s ease-in-out";
+        line1.style.transform = "rotate(45deg) translate(10px,10px)"
         line2.style.visibility = "hidden";
+        line3.style.transform = "rotate(-45deg) translate(7px,-8px)"
+
         line1.style.transition = "all .3s ease-in-out";
-        line2.style.transition = "all .3s ease-in-out";
+
         line3.style.transition = "all .3s ease-in-out";
-    }else  if(navpanel.classList.contains("opened")){
+    }
+    else  if(navpanel.classList.contains("opened")){
         navpanel.style.visibility = "hidden";
         navpanel.style.height = "0px";
         navpanel.classList.remove("opened");
         navpanel.classList.add("closed");
         navpanel.style.transition = "all .5s ease-in-out";
         navpanel.style.overflow ="hidden";
-        line1.style.transform = "unset";
-        line3.style.transform = "rotate(0deg) translateY(-15px)";
+        // line1.style.transform = "unset";
+        // line3.style.transform = "rotate(0deg) translateY(-15px)";
+        // line2.style.visibility = "visible";
+        // line1.style.transition = "all .3s ease-in-out";
+        // line2.style.transition = "all .3s ease-in-out";
+        // line3.style.transition = "all .3s ease-in-out";
+        line1.style.transform = "unset"
+
+        line3.style.transform = "unset"
         line2.style.visibility = "visible";
         line1.style.transition = "all .3s ease-in-out";
-        line2.style.transition = "all .3s ease-in-out";
+
         line3.style.transition = "all .3s ease-in-out";
     }
 }
@@ -52,14 +84,23 @@ function closeme(){
         navpanel.classList.add("closed");
         navpanel.style.transition = "all .5s ease-in-out";
         navpanel.style.overflow ="hidden";
-        line1.style.transform = "unset";
-        line3.style.transform = "rotate(0deg) translateY(-15px)";
+        // line1.style.transform = "unset";
+        // line3.style.transform = "rotate(0deg) translateY(-15px)";
+        // line2.style.visibility = "visible";
+        // line1.style.transition = "all .3s ease-in-out";
+        // line2.style.transition = "all .3s ease-in-out";
+        // line3.style.transition = "all .3s ease-in-out";
+        line1.style.transform = "unset"
+
+        line3.style.transform = "unset"
         line2.style.visibility = "visible";
         line1.style.transition = "all .3s ease-in-out";
-        line2.style.transition = "all .3s ease-in-out";
+
         line3.style.transition = "all .3s ease-in-out";
     }
 }
+
+
 
 
 var typed = new Typed("#typer", {

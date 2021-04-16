@@ -17,7 +17,7 @@
         content="Portfolio, UI, UX, Mobile App, Web Design, Web Development, Responsive website, Creative website, Video, Creative Content, Engineering, IT, Skills, Project,">
 
     <!-- Favicon -->
-    <!-- <link rel="shortcut icon" href="../assets/images/favicon.png"> -->
+    <link rel="shortcut icon" href="../assets/images/icon/sneha.png">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -39,6 +39,7 @@
         crossorigin="anonymous" />
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/style/loader.css">
     <link rel="stylesheet" href="../assets/style/helper.css">
     <link rel="stylesheet" href="../assets/style/home.css">
     <link rel="stylesheet" href="../assets/style/about.css">
@@ -51,18 +52,37 @@
     <link rel="stylesheet" href="../assets/style/footer.css">
     <link rel="stylesheet" href="../assets/style/experience.css">
     <link rel="stylesheet" href="../assets/style/nav.css">
+   
     <link rel="stylesheet" href="../assets/style/mobile-res.css">
 
 </head>
 
 <body>
+    <!-- Loader -->
+    <div class="loader-wrapper" id="preloader">
+        <div class="loader">
+            <div class="square"></div>
+            <div class="path">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+       </div>
+    <!-- Loader -->
+
+
     <!-- navbar sec -->
     <nav id="navbar">
         <div class="navigation" id="">
-            <div class="ham-btn">
-                <span class="line1" id="first"></span>
-                <span class="line2" id="second"></span>
-                <span class="line3" id="third"></span>
+            <div class="nav-icon">
+                <span class="s-dash" id="first"></span>
+                <span class="s-dash" id="second"></span>
+                <span class="s-dash" id="third"></span>
             </div>
             <div id="nav-wrapper" class="closed" onclick="closeme()">
                 <div class="links">
@@ -180,7 +200,7 @@
                                 <p> <strong>Department :</strong> Information Technology</p>
                                 <p> <strong>Email :</strong> snehabirodkar31@gmail.com</p>
                                 <p> <strong>Residence :</strong> Mumbai</p>
-                                <a href="../assets/Sneha Resume1.pdf" target="_blank" class="get-in-touch">Resume</a>
+                                <a href="../assets/sneha resume.pdf" target="_blank" class="get-in-touch">Resume</a>
                             </div>
                         </div>
 
@@ -925,7 +945,8 @@
     <script src="../assets/script/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- counter -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
 
     <!--Custom Isotopes -->
     <script src="../assets/script/isotopes.js"></script>
