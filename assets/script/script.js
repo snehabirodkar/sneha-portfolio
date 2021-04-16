@@ -1,8 +1,10 @@
 //   Navigation menu
 const nav = document.querySelector('.ham-btn');
-console.log(nav);
+const text = document.querySelector('.links');
 const navpanel = document.getElementById('nav-wrapper');
-console.log(navpanel);
+const line1 = document.getElementById('first');
+const line2 = document.getElementById('second');
+const line3 = document.getElementById('third');
 nav.addEventListener("click", openMenu);
 
 function openMenu(){
@@ -16,24 +18,46 @@ function openMenu(){
         navpanel.style.bottom="0";
         navpanel.style.left="0";
         navpanel.style.right="0";
+        navpanel.style.transition = "all .3s ease-in-out";
         navpanel.style.zIndex = "9999";
         navpanel.classList.remove("closed");
         navpanel.classList.add("opened");
-        // navpanel.style.background = "rgba(21, 40, 78, 0.97)";
+        line1.style.transform = "rotate(45deg) translate(0px, 23px)";
+        line3.style.transform = "rotate(-45deg) translate(7px, -29px)";
+        line2.style.visibility = "hidden";
+        line1.style.transition = "all .3s ease-in-out";
+        line2.style.transition = "all .3s ease-in-out";
+        line3.style.transition = "all .3s ease-in-out";
     }else  if(navpanel.classList.contains("opened")){
         navpanel.style.visibility = "hidden";
         navpanel.style.height = "0px";
         navpanel.classList.remove("opened");
         navpanel.classList.add("closed");
-
+        navpanel.style.transition = "all .5s ease-in-out";
+        navpanel.style.overflow ="hidden";
+        line1.style.transform = "unset";
+        line3.style.transform = "rotate(0deg) translateY(-15px)";
+        line2.style.visibility = "visible";
+        line1.style.transition = "all .3s ease-in-out";
+        line2.style.transition = "all .3s ease-in-out";
+        line3.style.transition = "all .3s ease-in-out";
     }
 }
 
 function closeme(){
     if(navpanel.classList.contains("opened")){
         navpanel.style.visibility = "hidden";
+        navpanel.style.height = "0px";
         navpanel.classList.remove("opened");
         navpanel.classList.add("closed");
+        navpanel.style.transition = "all .5s ease-in-out";
+        navpanel.style.overflow ="hidden";
+        line1.style.transform = "unset";
+        line3.style.transform = "rotate(0deg) translateY(-15px)";
+        line2.style.visibility = "visible";
+        line1.style.transition = "all .3s ease-in-out";
+        line2.style.transition = "all .3s ease-in-out";
+        line3.style.transition = "all .3s ease-in-out";
     }
 }
 
