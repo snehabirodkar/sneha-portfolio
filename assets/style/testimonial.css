@@ -3,13 +3,15 @@
     font-size: 25px;
     color:#64ffda;
     padding: 20px 0;
-    font-weight: lighter;
+    font-weight: 400;
 }
 .testimonial-para{
     padding-right: 140px;
     font-size:18px;
     color: #c2c7e5;
     font-weight: lighter;
+    text-align: justify;
+
 }
 .client-name{
     font-weight: lighter;
@@ -32,7 +34,7 @@
 }
 .testimonial-desg{
     font-weight: lighter;
-    font-size:14px;
+    font-size:15px;
     color: #c2c7e5; 
 }
 .testimonial-left{

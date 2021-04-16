@@ -39,7 +39,7 @@
 #isotope-filters button.active {
   /* color: #64ffda;
   border-bottom: solid 1px #64ffda; */
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 7px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 15%);
 
 }
 

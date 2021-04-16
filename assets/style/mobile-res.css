@@ -218,7 +218,12 @@
         line-height: 1;
 
     }
-
+    .small-title {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
     .home-heading span {
         color: #c2c7e5;
         line-height: 1;
@@ -378,7 +383,7 @@
     }
 
     .testimonial-para {
-        padding: 0px;
+        padding-right: 70px;
         font-size: 20px;
         color: #c2c7e5;
         font-weight: lighter;
@@ -1091,7 +1096,24 @@
     body {
         overflow-x: hidden;
     }
-
+    .nav-icon {
+        display: inline-block;
+        background: #299179;
+        border-radius: 50%;
+        padding: 3px 3px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 99999;
+    }
+    .s-dash {
+        display: block;
+        padding: 1.15px 15px;
+        background: #fefefe;
+        height: 1px;
+        margin: 10.1px;
+        border-radius: 10px;
+    }
     /* Home */
     .content-wrapper {
         /* padding-top: 50px; */
