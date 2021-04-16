@@ -123,8 +123,8 @@ li{
 }
 
 .get-in-touch:hover {
-
-  background-color: transparent;
+/* opacity: 1; */
+  background-color: rgba(100,255,218,0.1);;
   border-radius: 4px;
 }
 

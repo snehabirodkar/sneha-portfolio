@@ -193,14 +193,14 @@
 
     .responsive .slick-next {
         position: absolute;
-        top: 220px;
+        top: 250px;
         right: 31%;
         left: 75%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 220px;
+        top: 250px;
         right: 45%;
         left: 70%;
         z-index: 88;
@@ -279,7 +279,7 @@
 
     .project-details {
         position: relative;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 1.5;
         color: #aaa;
         width: 570px;
@@ -294,12 +294,12 @@
     }
     .project-img img {
         width: 400px;
-        height: 340px;
+        height: 290px;
     }
 
     .project2-details {
         position: relative;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 1.5;
         color: #aaa;
         width: 570px;
@@ -327,12 +327,16 @@
     }
 
     .tag-list2 {
-        padding-left: 179px;
+        padding-left: 120px;
     }
     .mobile-projects {
         display: none;
     }
+    #more .project-flex-item {
+        width: 350px;
+        height: 370px;
 
+    }
     .project-flex-item {
         width: 390px;
 
@@ -375,18 +379,27 @@
 
     .testimonial-para {
         padding: 0px;
+        font-size: 20px;
+        color: #c2c7e5;
+        font-weight: lighter;
+    }
+    .client-name {
+        font-weight: 600;
+        padding: 15px 0;
+        color: #64ffda;
+        font-size: 21px;
     }
 
     .responsive .slick-next {
         position: absolute;
-        top: 220px;
+        top: 250px;
         right: 31%;
         left: 75%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-    top: 220px;
+    top: 250px;
     right: 45%;
     left: 70%;
     z-index: 88;
@@ -423,10 +436,7 @@
     }
 
     /* About section */
-    .flex-container {
-        /* display: block; */
-    }
-
+    
     .flex-item-left {
         /* padding: 10px 30px 10px 10px; */
         flex: 50%;
@@ -434,8 +444,6 @@
         text-align: left;
         color: #c2c7e5;
     }
-
-
 
     /* skills section */
     h4.bg-heading {
@@ -562,14 +570,14 @@
 
     .responsive .slick-next {
         position: absolute;
-        top: 220px;
+        top: 260px;
         right: 31%;
-        left: 75%;
+        left: 73%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 220px;
+        top: 260px;
         right: 45%;
         left: 67%;
         z-index: 88;
@@ -660,7 +668,7 @@
     }
 
     .project-wrapper-inner {
-        padding-left: 60px;
+        /* padding-left: 60px; */
     }
 
     .project {
@@ -709,9 +717,15 @@
         font-family: monospace;
         /* transform: translateX(120px); */
     }
-
     .tag-list2 {
-        padding-left: 40px;
+        padding-left: 0px;
+    }
+    .tag-list2 ul li {
+        margin-right: 10px;
+        color: #aaa;
+        /* font-family: monospace; */
+        padding: 1px 6px;
+        border-radius: 5px;
     }
 
     .mobile-projects {
@@ -812,14 +826,14 @@
 
     .responsive .slick-next {
         position: absolute;
-        top: 220px;
+        top: 280px;
         right: 31%;
         left: 75%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 220px;
+        top: 280px;
         right: 45%;
         left: 67%;
         z-index: 88;
@@ -1005,14 +1019,14 @@
 
     .responsive .slick-next {
         position: absolute;
-        top: 220px;
+        top: 310px;
         right: 31%;
         left: 75%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 220px;
+        top: 310px;
         right: 45%;
         left: 65%;
         z-index: 88;
@@ -1250,16 +1264,16 @@
 
     .responsive .slick-next {
         position: absolute;
-        top: 220px;
+        top: 445px;
         right: 31%;
-        left: 75%;
+        left: 45%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 220px;
+        top: 445px;
         right: 45%;
-        left: 63%;
+        left: 33%;
         z-index: 88;
     }
 
@@ -1504,16 +1518,16 @@
 
     .responsive .slick-next {
         position: absolute;
-        top: 220px;
+        top: 490px;
         right: 31%;
-        left: 75%;
+        left: 50%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 220px;
+        top: 490px;
         right: 45%;
-        left: 63%;
+        left: 37%;
         z-index: 88;
     }
 
@@ -1781,20 +1795,22 @@
 
     .testimonial-para {
         padding-right: 50px;
+        font-size: 18px;
+        letter-spacing: 1px;
     }
 
     .responsive .slick-next {
         position: absolute;
-        top: 250px;
+        top: 480px;
         right: 31%;
-        left: 75%;
+        left: 49%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 250px;
+        top: 480px;
         right: 45%;
-        left: 59%;
+        left: 35%;
         z-index: 88;
     }
 
@@ -1867,7 +1883,6 @@
 
     body {
         overflow-x: hidden;
-        /* background: red; */
     }
 
     /* Home */
@@ -2063,20 +2078,25 @@
 
     .testimonial-para {
         padding-right: 50px;
+        font-size: 15px;
+        letter-spacing: 1px;
     }
-
+.testimonial-desg{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
     .responsive .slick-next {
         position: absolute;
-        top: 250px;
+        top: 420px;
         right: 31%;
-        left: 75%;
+        left: 50%;
     }
 
     .responsive .slick-prev {
         position: absolute;
-        top: 250px;
+        top: 420px;
         right: 45%;
-        left: 59%;
+        left: 35%;
         z-index: 88;
     }
 
@@ -2092,14 +2112,14 @@
     .counter-right {
         margin: 5px;
         height: 138px;
-        width: 110px;
+        width: 130px;
 
     }
 
     .counter-left {
         margin: 5px;
         height: 138px;
-        width: 110px;
+        width: 130px;
 
     }
 

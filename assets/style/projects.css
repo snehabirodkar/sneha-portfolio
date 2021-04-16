@@ -25,7 +25,7 @@
 
 .project-label {
   color: #64ffda;
-  font-family: monospace;
+  /* font-family: monospace; */
   transform: translateX(-28px);
 }
 
@@ -78,7 +78,7 @@
   padding: 3px 8px;
   margin-right: 20px;
   color: #aaa;
-  font-family: monospace;
+  /* font-family: monospace; */
 
 }
 
@@ -93,21 +93,23 @@
 .tag-list ul li:nth-child(3) {
   border: solid 1px #64ffda;
 }
-
+.tag-list ul li:nth-child(4) {
+  border: solid 1px #64ffda;
+}
 .project-img img {
-  width: 404px;
-  height: 282px;
+  width: 400px;
+  height: 250px;
   border-radius: 2px;
   /* position: relative; */
   mix-blend-mode: multiply;
-  /* filter: grayscale(30%); */
+  filter: grayscale(30%);
 }
 
 .project-img {
   position: relative;
   z-index: 1;
   /* background-color: #64ffda; */
-  background: linear-gradient(0.4turn, #8cecd6, #97ecae);
+  /* background: linear-gradient(0.4turn, #8cecd6, #97ecae); */
   border-radius: 2px;
   transform: translate(-73px, 14px);
 }
@@ -147,7 +149,7 @@
 .project2-label {
   padding-left: 215px;
   color: #64ffda;
-  font-family: monospace;
+  /* font-family: monospace; */
   transform: translateX(120px);
 
 }
@@ -171,7 +173,7 @@
   position: relative;
   /* z-index: 1; */
   /* background-color: #64ffda; */
-  background: linear-gradient(0.4turn, #64ffda, #64ff8d);
+  /* background: linear-gradient(0.4turn, #64ffda, #64ff8d); */
   border-radius: 2px;
   transform: translate(-83px, 14px);
 }
@@ -238,13 +240,13 @@
   display: flex;
   margin-top: 30px;
   width: 200px;
-
+  font-size: 13px
 }
 
 .tag-list2 ul li {
   margin-right: 20px;
   color: #aaa;
-  font-family: monospace;
+  /* font-family: monospace; */
   padding: 3px 8px;
   border-radius: 5px;
 }
@@ -282,6 +284,10 @@
 .tag-list2 ul li:nth-child(3) {
   border: solid 1px #64ffda;
 }
+.tag-list2 ul li:nth-child(4) {
+  border: solid 1px #64ffda;
+}
+
 
 .mobile-projects{
   display: none;
@@ -292,6 +298,7 @@
   /* padding: 15px 15px 15px 85px; */
   padding: 15px;
   width: 370px;
+  /* position: relative; */
   /* transform: translate(-34px, 23px); */
 }
 
@@ -305,7 +312,8 @@
 
 .card-bg {
   background: #0a1320;
-  /* width: min-content; */
+  width: 100%;
+  height: 100%;
 }
 
 .show-more-btn {
@@ -395,4 +403,19 @@
   transition: all .25s ease-in-out;
   margin-top: 50px;
   text-align: center;
+}
+.show-more:hover{
+  background-color: rgba(100,255,218,0.1);;
+  border-radius: 4px;
+}
+#more .lower{
+  position: absolute;
+  bottom: 20px;
+}
+#more .project-flex-item {
+  /* padding: 15px 15px 15px 85px; */
+  padding: 15px;
+  width: 370px;
+  position: relative;
+  /* transform: translate(-34px, 23px); */
 }

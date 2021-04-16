@@ -1,3 +1,43 @@
+//   Navigation menu
+const nav = document.querySelector('.ham-btn');
+console.log(nav);
+const navpanel = document.getElementById('nav-wrapper');
+console.log(navpanel);
+nav.addEventListener("click", openMenu);
+
+function openMenu(){
+    console.log("clicked");
+    if(navpanel.classList.contains("closed")){
+        console.log("inside closed");
+        navpanel.style.visibility = "visible";
+        navpanel.style.height = "100vh";
+        navpanel.style.position = "fixed";
+        navpanel.style.top="0";
+        navpanel.style.bottom="0";
+        navpanel.style.left="0";
+        navpanel.style.right="0";
+        navpanel.style.zIndex = "9999";
+        navpanel.classList.remove("closed");
+        navpanel.classList.add("opened");
+        // navpanel.style.background = "rgba(21, 40, 78, 0.97)";
+    }else  if(navpanel.classList.contains("opened")){
+        navpanel.style.visibility = "hidden";
+        navpanel.style.height = "0px";
+        navpanel.classList.remove("opened");
+        navpanel.classList.add("closed");
+
+    }
+}
+
+function closeme(){
+    if(navpanel.classList.contains("opened")){
+        navpanel.style.visibility = "hidden";
+        navpanel.classList.remove("opened");
+        navpanel.classList.add("closed");
+    }
+}
+
+
 var typed = new Typed("#typer", {
     strings: ['Freelancer',   
     'UI/UX Designer',
@@ -82,58 +122,3 @@ jQuery(document).ready(function ($) {
     });
 });
 
-// $(function () {
-//     $("#testtext-1").show("slow");
-//     $("#testtext-2").hide();
-//     $("#testtext-3").hide();
-//     $("div.test-2").addClass("changeafter");
-//     $("div.test-3").addClass("changeafter");
-
-//     $("#test-1").click(function () {
-//         $("#testtext-1").show("slow");
-//         $("#testtext-2").hide();
-//         $("#testtext-3").hide();
-//         $("div.test-1").removeClass("changeafter");
-//         $("div.test-2").addClass("changeafter");
-//         $("div.test-3").addClass("changeafter");
-//     });
-//     $("#test-2").click(function () {
-//         $("#testtext-1").hide();
-//         $("#testtext-2").show("slow");
-//         $("#testtext-3").hide();
-//         $("div.test-2").removeClass("changeafter");
-//         $("div.test-1").addClass("changeafter");
-//         $("div.test-3").addClass("changeafter");
-//     });
-//     $("#test-3").click(function () {
-//         $("#testtext-1").hide();
-//         $("#testtext-2").hide();
-//         $("#testtext-3").show("slow");
-//         $("div.test-3").removeClass("changeafter");
-//         $("div.test-2").addClass("changeafter");
-//         $("div.test-1").addClass("changeafter");
-//     });
-// });
-
-// jQuery.
-$(function() {
-	// Reference the tab links.
-	const tabLinks = $('#tab-links li a');
-	
-	// Handle link clicks.
-	tabLinks.click(function(event) {
-		var $this = $(this);
-		
-		// Prevent default click behaviour.
-		event.preventDefault();
-		
-		// Remove the active class from the active link and section.
-		$('#tab-links a.active, section.active').removeClass('active');
-		
-		// Add the active class to the current link and corresponding section.
-		$this.addClass('active');
-		$($this.attr('href')).addClass('active');
-	});
-});
-
-  

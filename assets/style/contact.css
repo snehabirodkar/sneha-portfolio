@@ -85,6 +85,10 @@ textarea{
     transition: all .25s ease-in-out;
     /* margin-top: 50px; */
 }
+.send-btn:hover{
+  background-color: rgba(100,255,218,0.1);;
+  border-radius: 4px;
+}
 .contact-det{
   font-size: 17px;
   color: #c2c7e5;

@@ -17,7 +17,7 @@
         content="Portfolio, UI, UX, Mobile App, Web Design, Web Development, Responsive website, Creative website, Video, Creative Content, Engineering, IT, Skills, Project,">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../assets/images/favicon.png">
+    <!-- <link rel="shortcut icon" href="../assets/images/favicon.png"> -->
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -50,11 +50,45 @@
     <link rel="stylesheet" href="../assets/style/contact.css">
     <link rel="stylesheet" href="../assets/style/footer.css">
     <link rel="stylesheet" href="../assets/style/experience.css">
+    <link rel="stylesheet" href="../assets/style/nav.css">
     <link rel="stylesheet" href="../assets/style/mobile-res.css">
 
 </head>
 
 <body>
+    <!-- navbar sec -->
+    <nav id="navbar">
+        <div class="navigation" id="">
+            <div class="ham-btn">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+            <div id="nav-wrapper" class="closed">
+                <div class="links">
+                    <div class="link">
+                        <a href="#home-section" onclick="closeme()">Home</a>
+                    </div>
+                    <div class="link">
+                        <a href="#about-section"  onclick="closeme()">About</a>
+                    </div>
+                    <div class="link">
+                        <a href="#skills-section"  onclick="closeme()">Skills</a>
+                    </div>
+                    <div class="link">
+                        <a href="#projects-section"  onclick="closeme()">Projects</a>
+                    </div>
+                    <div class="link">
+                        <a href="#testimonial-section"  onclick="closeme()">Testimonial</a>
+                    </div>
+                    <div class="link">
+                        <a href="#contact-section"  onclick="closeme()">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of nav section -->
 
     <!-- Home Section -->
     <section id="home-section">
@@ -134,7 +168,8 @@
                     <h2 class="numbered-heading"> <span>01.</span> "About me" </h2>
                     <div class="flex-container">
                         <div class="flex-item-left">
-                            <p>Hello! I'm Sneha Birodkar soon to be a <span>IT Engineer</span>, An Aspiring Engineering undergraduate and a Passionate <span>Software Developer</span> with experience in
+                            <p>Hello! I'm Sneha Birodkar soon to be a <span>IT Engineer</span>, An Aspiring Engineering
+                                undergraduate and a Passionate <span>Software Developer</span> with experience in
                                 <span>Web development</span>and <span> UI/UX Designing</span>.I am self-motivated
                                 and self-taught person who likes to solve problems. Want to become a <span>Full Stack
                                     Developer</span> which will help my clients and will help me in my career growth. My
@@ -213,7 +248,7 @@
     <section id="projects-section">
         <div class="project-wrapper">
             <div class="content-home container">
-                <h2 class="numbered-heading"> <span>04.</span> "My Projects" </h2>
+                <h2 class="numbered-heading"> <span>03.</span> "My Projects" </h2>
                 <!-- Project1 -->
                 <div class="project-wrapper-inner">
                     <div class="project show-more-item">
@@ -222,19 +257,19 @@
                             <h4 class="project-title">PHP ERP</h4>
                             <h4 class="project-label">May 2020</h4>
                             <div class="project-details">
-                                <p>Lorem ipsum dolor amet you probably haven't heard of them bitters selvage listicle
-                                    heirloom. Locavore kombucha street art ennui 90's, organic food truck hell of seitan
-                                    skateboard literally hexagon fixie next level. Lomo salvia yuccie hella roof party
-                                    echo
-                                    park vegan four dollar toast cred.</p>
+                                <p>This project gives us an insight on how to manage our day to day business activities,
+                                    such as accounting and managing supply chain operations.It can be used by
+                                    organizations looking to manage their business functions</p>
                             </div>
                             <div class="tag-list">
                                 <ul>
+                                    <li>HTML</li>
+                                    <li>JS</li>
                                     <li>PHP</li>
-                                    <li>Laravel</li>
                                     <li>MYSQL</li>
-                                    <li class="project-link"><a class="sociali twitter" href="#" aria-label="Twitter">
-                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
+                                    <li class="project-link"><a class="sociali ext-link"
+                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                            <i class="fa fa-external-link" title="GitLab"></i></a></li>
 
                                 </ul>
                             </div>
@@ -253,23 +288,25 @@
                         </div>
 
                         <div class="project2-right">
-                            <div class="project-head1">Invoice Management</div>
-                            <h4 class="project-head2">PHP ERP</h4>
-                            <div class="project-label2">May 2020</div>
+                            <div class="project-head1">Blogging</div>
+                            <h4 class="project-head2">Blog Management</h4>
+                            <div class="project-label2">June 2020</div>
                             <div class="project2-details">
-                                <p>Lorem ipsum dolor amet you probably haven't heard of them bitters selvage listicle
-                                    heirloom. Locavore kombucha street art ennui 90's, organic food truck hell of seitan
-                                    skateboard literally hexagon fixie next level. Lomo salvia yuccie hella roof party
-                                    echo
-                                    park vegan four dollar toast cred.</p>
+                                <p>This project helps in creating, maintaining and sharing blogs. employees can react,
+                                    comment on any blog.One can explore blogs according to their preferred category.The
+                                    delete option offers the employee to temporarily delete their blogs and store it in
+                                    their recycle bin, they can further choose to permenantly delete the post or restore
+                                    it.</p>
                             </div>
                             <div class="tag-list2">
                                 <ul>
+                                    <li>HTML/JS</li>
                                     <li>PHP</li>
                                     <li>Laravel</li>
                                     <li>MYSQL</li>
-                                    <li class="project-link"><a class="sociali twitter" href="#" aria-label="Twitter">
-                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
+                                    <li class="project-link"><a class="sociali ext-link"
+                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                            <i class="fa fa-external-link" title="GitLab"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -285,10 +322,11 @@
                                 <div class="project-card card-bg">
                                     <div class="small-project-card">
                                         <img src="../assets/images/erp.jpg" alt="">
-                                        <h3>Portfolio Website</h3>
-                                        <p>I made this Portfolio because the previous one had too much of text. This
-                                            website
-                                            is open source and made using Vue, Vuex and VueRouter</p>
+                                        <h3>ERP Management</h3>
+                                        <p>This project gives us an insight on how to manage our day to day business
+                                            activities,
+                                            such as accounting and managing supply chain operations.It can be used by
+                                            organizations looking to manage their business functions</p>
                                         <div class="lower">
                                             <div class="project-tag-list">
                                                 <ul>
@@ -297,12 +335,13 @@
                                                     <li>MYSQL</li>
                                                 </ul>
                                                 <div class="project-link-wrapper">
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-gitlab" title="Twitter"></i></a></li>
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="sneha-birodkar" aria-label="Netlify">
+                                                            <i class="fa fa-external-link" title="Netlify"></i></a></li>
+
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                                            <i class="fa fa-gitlab" title="GitLab"></i></a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -314,10 +353,16 @@
                                 <div class="project-card card-bg">
                                     <div class="small-project-card">
                                         <img src="../assets/images/blog.PNG" alt="">
-                                        <h3>Portfolio Website</h3>
-                                        <p>I made this Portfolio because the previous one had too much of text. This
-                                            website
-                                            is open source and made using Vue, Vuex and VueRouter</p>
+                                        <h3>Blog Management</h3>
+                                        <p>This project helps in creating, maintaining and sharing blogs. employees can
+                                            react,
+                                            comment on any blog.One can explore blogs according to their preferred
+                                            category.The
+                                            delete option offers the employee to temporarily delete their blogs and
+                                            store it in
+                                            their recycle bin, they can further choose to permenantly delete the post or
+                                            restore
+                                            it.</p>
                                         <div class="lower">
                                             <div class="project-tag-list">
                                                 <ul>
@@ -326,12 +371,13 @@
                                                     <li>MYSQL</li>
                                                 </ul>
                                                 <div class="project-link-wrapper">
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-gitlab" title="Twitter"></i></a></li>
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="sneha-birodkar" aria-label="Netlify">
+                                                            <i class="fa fa-external-link" title="Netlify"></i></a></li>
+
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                                            <i class="fa fa-gitlab" title="GitLab"></i></a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -343,10 +389,10 @@
                                 <div class="project-card card-bg">
                                     <div class="small-project-card">
                                         <img src="../assets/images/white-graphics.PNG" alt="">
-                                        <h3>Portfolio Website</h3>
-                                        <p>I made this Portfolio because the previous one had too much of text. This
-                                            website
-                                            is open source and made using Vue, Vuex and VueRouter</p>
+                                        <h3>White Graphics</h3>
+                                        <p>A trendy website for White Graphics Co. with the minimal approach using
+                                            maginfying pop up, also used waypoints and map to location white graphics
+                                            location</p>
                                         <div class="lower">
                                             <div class="project-tag-list">
                                                 <ul>
@@ -355,12 +401,13 @@
                                                     <li>MYSQL</li>
                                                 </ul>
                                                 <div class="project-link-wrapper">
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-gitlab" title="Twitter"></i></a></li>
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="sneha-birodkar" aria-label="Netlify">
+                                                            <i class="fa fa-external-link" title="Netlify"></i></a></li>
+
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                                            <i class="fa fa-gitlab" title="GitLab"></i></a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -379,25 +426,25 @@
                             <div class="project-flex-item show-more-item">
                                 <div class="project-card card-bg">
                                     <div class="small-project-card">
-                                        <img src="../assets/images/white-graphics.PNG" alt="">
+                                        <!-- <img src="../assets/images/white-graphics.PNG" alt=""> -->
                                         <h3>Portfolio Website</h3>
-                                        <p>I made this Portfolio because the previous one had too much of text. This
-                                            website
-                                            is open source and made using Vue, Vuex and VueRouter</p>
+                                        <p>Designed in Figma and coded in CSS3 and HTML. I have worked really closely to
+                                            make this as beautiful as possible. It's open source as well !</p>
                                         <div class="lower">
                                             <div class="project-tag-list">
                                                 <ul>
+                                                    <li>HTML/CSS</li>
+                                                    <li>JS</li>
                                                     <li>PHP</li>
-                                                    <li>Laravel</li>
-                                                    <li>MYSQL</li>
                                                 </ul>
                                                 <div class="project-link-wrapper">
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-gitlab" title="Twitter"></i></a></li>
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="sneha-birodkar" aria-label="Netlify">
+                                                            <i class="fa fa-external-link" title="Netlify"></i></a></li>
+
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                                            <i class="fa fa-gitlab" title="GitLab"></i></a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -408,25 +455,25 @@
                             <div class="project-flex-item show-more-item">
                                 <div class="project-card card-bg">
                                     <div class="small-project-card">
-                                        <img src="../assets/images/blog.PNG" alt="">
-                                        <h3>Portfolio Website</h3>
-                                        <p>I made this Portfolio because the previous one had too much of text. This
-                                            website
-                                            is open source and made using Vue, Vuex and VueRouter</p>
+                                        <!-- <img src="../assets/images/blog.PNG" alt=""> -->
+                                        <h3>Web Custom Components</h3>
+                                        <p>I made the custom components as custom bootsrap which makes easy to write the
+                                            css. As it is one type of a broilerplate for HTML.</p>
                                         <div class="lower">
                                             <div class="project-tag-list">
                                                 <ul>
-                                                    <li>PHP</li>
-                                                    <li>Laravel</li>
-                                                    <li>MYSQL</li>
+                                                    <li>HTML</li>
+                                                    <li>CSS</li>
+                                                    <li>Javascript</li>
                                                 </ul>
                                                 <div class="project-link-wrapper">
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-gitlab" title="Twitter"></i></a></li>
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="sneha-birodkar" aria-label="Netlify">
+                                                            <i class="fa fa-external-link" title="Netlify"></i></a></li>
+
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                                            <i class="fa fa-gitlab" title="GitLab"></i></a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -437,25 +484,26 @@
                             <div class="project-flex-item show-more-item">
                                 <div class="project-card card-bg">
                                     <div class="small-project-card">
-                                        <img src="../assets/images/erp.jpg" alt="">
-                                        <h3>Portfolio Website</h3>
-                                        <p>I made this Portfolio because the previous one had too much of text. This
-                                            website
-                                            is open source and made using Vue, Vuex and VueRouter</p>
+                                        <!-- <img src="../assets/images/erp.jpg" alt=""> -->
+                                        <h3>Housing Society Management</h3>
+                                        <p>This project is made for managing the society's maintenance, also this
+                                            standalone application give abiliy to generate pdf of bills and also put the
+                                            remainders to people for the dues.</p>
                                         <div class="lower">
                                             <div class="project-tag-list">
                                                 <ul>
-                                                    <li>PHP</li>
-                                                    <li>Laravel</li>
+                                                    <li>Java</li>
                                                     <li>MYSQL</li>
+                                                    <li>JSON</li>
                                                 </ul>
                                                 <div class="project-link-wrapper">
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-gitlab" title="Twitter"></i></a></li>
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="sneha-birodkar" aria-label="Netlify">
+                                                            <i class="fa fa-external-link" title="Netlify"></i></a></li>
+
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                                            <i class="fa fa-gitlab" title="GitLab"></i></a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -466,25 +514,26 @@
                             <div class="project-flex-item show-more-item">
                                 <div class="project-card card-bg">
                                     <div class="small-project-card">
-                                        <img src="../assets/images/erp.jpg" alt="">
-                                        <h3>Portfolio Website</h3>
-                                        <p>I made this Portfolio because the previous one had too much of text. This
-                                            website
-                                            is open source and made using Vue, Vuex and VueRouter</p>
+                                        <!-- <img src="../assets/images/erp.jpg" alt=""> -->
+                                        <h3>Wedding Portal</h3>
+                                        <p>I made this wedding portfolio for the people who are wishing to marry they
+                                            can directly invite the members to their marraige and also display their
+                                            gallery.</p>
                                         <div class="lower">
                                             <div class="project-tag-list">
                                                 <ul>
-                                                    <li>PHP</li>
-                                                    <li>Laravel</li>
-                                                    <li>MYSQL</li>
+                                                    <li>HTML</li>
+                                                    <li>Js</li>
+                                                    <li>Ajax</li>
                                                 </ul>
                                                 <div class="project-link-wrapper">
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-external-link" title="Twitter"></i></a></li>
-                                                    <li class="project-link"><a class="sociali twitter" href="#"
-                                                            aria-label="Twitter">
-                                                            <i class="fa fa-gitlab" title="Twitter"></i></a></li>
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="sneha-birodkar" aria-label="Netlify">
+                                                            <i class="fa fa-external-link" title="Netlify"></i></a></li>
+
+                                                    <li class="project-link"><a class="sociali ext-link"
+                                                            href="https://gitlab.com/SnehaBirodkar" aria-label="GitLab">
+                                                            <i class="fa fa-gitlab" title="GitLab"></i></a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -511,7 +560,7 @@
         <div class="content-box-lg">
             <div class="container">
                 <div class="row">
-                    <h2 class="numbered-heading"> <span>05.</span> "My Skills" </h2>
+                    <h2 class="numbered-heading"> <span>04.</span> "My Designs" </h2>
 
                     <div id="isotope-filters" class="portfolio-btn text-center">
                         <button class="btn active" data-filter="*"><span>ALL</span></button>
@@ -528,11 +577,12 @@
                         <div class="col-md-3 logo">
                             <!--portfolio item-1-->
                             <div class="portfolio-item">
-                                <a href="../assets/images/erp.jpg">
+                                <a href="../assets/images/Designs/Delhi logo@4x.png">
                                     <div class="portfolio-container">
-                                        <img src="../assets/images/erp.jpg" alt="Avatar" class="image">
+                                        <img src="../assets/images/Designs/Delhi logo@4x.png" alt="Delhi Hub"
+                                            class="image">
                                         <div class="overlay">
-                                            <div class="text">Hello World</div>
+                                            <div class="text">Delhi Hub</div>
                                         </div>
                                     </div>
                                 </a>
@@ -543,11 +593,12 @@
                         <div class="col-md-3 logo">
                             <!--portfolio item-2-->
                             <div class="portfolio-item">
-                                <a href="../assets/images/Home/sneha.jpeg">
+                                <a href="../assets/images/Designs/imperial logo@4x.png">
                                     <div class="portfolio-container">
-                                        <img src="../assets/images/blog.PNG" alt="Avatar" class="image">
+                                        <img src="../assets/images/Designs/imperial logo@4x.png" alt="Imperial Tours"
+                                            class="image">
                                         <div class="overlay">
-                                            <div class="text">Hello World</div>
+                                            <div class="text">Imperial Tours</div>
                                         </div>
                                     </div>
                                 </a>
@@ -558,11 +609,11 @@
                         <div class="col-md-3 ui">
                             <!--portfolio item-3-->
                             <div class="portfolio-item">
-                                <a href="../assets/images/erp.jpg">
+                                <a href="../assets/images/Designs/ui1@4x.png">
                                     <div class="portfolio-container">
-                                        <img src="../assets/images/erp.jpg" alt="Avatar" class="image">
+                                        <img src="../assets/images/Designs/ui1@4x.png" alt="404 Screen" class="image">
                                         <div class="overlay">
-                                            <div class="text">Hello World</div>
+                                            <div class="text">404 Screen</div>
                                         </div>
                                     </div>
                                 </a>
@@ -570,14 +621,30 @@
                             <!--/portfolio item-3-->
                         </div>
 
-                        <div class="col-md-3 illustration">
+                        <div class="col-md-3 ui">
+                            <!--portfolio item-3-->
+                            <div class="portfolio-item">
+                                <a href="../assets/images/Designs/ui2@4x.png">
+                                    <div class="portfolio-container">
+                                        <img src="../assets/images/Designs/ui2@4x.png" alt="Restaurant" class="image">
+                                        <div class="overlay">
+                                            <div class="text">Restaurant</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--/portfolio item-3-->
+                        </div>
+
+
+                        <div class="col-md-3 illustrations">
                             <!--portfolio item-4-->
                             <div class="portfolio-item">
-                                <a href="../assets/images/Home/sneha.jpeg">
+                                <a href="../assets/images/Designs/girl@4x.png">
                                     <div class="portfolio-container">
-                                        <img src="../assets/images/white-graphics.PNG" alt="" class="image">
+                                        <img src="../assets/images/Designs/girl@4x.png" alt="Girl" class="image">
                                         <div class="overlay">
-                                            <div class="text">Sneha</div>
+                                            <div class="text">Girl</div>
                                         </div>
                                     </div>
                                 </a>
@@ -585,14 +652,15 @@
                             <!--/portfolio item-4-->
                         </div>
 
-                        <div class="col-md-3 ui">
+                        <div class="col-md-3 illustrations">
                             <!--portfolio item-5-->
                             <div class="portfolio-item">
-                                <a href="../assets/images/Home/sneha.jpeg">
+                                <a href="../assets/images/Designs/scenery@4x.png">
                                     <div class="portfolio-container">
-                                        <img src="../assets/images/erp.jpg" alt="" class="image">
+                                        <img src="../assets/images/Designs/scenery@4x.png" alt="Desert Scene"
+                                            class="image">
                                         <div class="overlay">
-                                            <div class="text">Sneha</div>
+                                            <div class="text">Desert Scene</div>
                                         </div>
                                     </div>
                                 </a>
@@ -603,11 +671,11 @@
                         <div class="col-md-3 illustrations">
                             <!--portfolio item-6-->
                             <div class="portfolio-item">
-                                <a href="../assets/images/Home/sneha.jpeg">
+                                <a href="../assets/images/Designs/scenery2@4x.png">
                                     <div class="portfolio-container">
-                                        <img src="../assets/images/white-graphics.PNG" alt="" class="image">
+                                        <img src="../assets/images/Designs/scenery2@4x.png" alt="Scenery" class="image">
                                         <div class="overlay">
-                                            <div class="text">Sneha</div>
+                                            <div class="text">Scenery</div>
                                         </div>
                                     </div>
                                 </a>
@@ -618,31 +686,16 @@
                         <div class="col-md-3 illustrations">
                             <!--portfolio item-7-->
                             <div class="portfolio-item">
-                                <a href="../assets/images/Home/sneha.jpeg">
+                                <a href="../assets/images/Designs/doctor@4x.png">
                                     <div class="portfolio-container">
-                                        <img src="../assets/images/white-graphics.PNG" alt="Avatar" class="image">
+                                        <img src="../assets/images/Designs/doctor@4x.png" alt="Doctor" class="image">
                                         <div class="overlay">
-                                            <div class="text">Hello World</div>
+                                            <div class="text">Doctor</div>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <!--/portfolio item-7-->
-                        </div>
-
-                        <div class="col-md-3 illustrations">
-                            <!--portfolio item-8-->
-                            <div class="portfolio-item">
-                                <a href="../assets/images/Home/sneha.jpeg">
-                                    <div class="portfolio-container">
-                                        <img src="../assets/images/white-graphics.PNG" alt="Avatar" class="image">
-                                        <div class="overlay">
-                                            <div class="text">Hello World</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-8-->
                         </div>
                     </div>
                 </div>
@@ -652,26 +705,21 @@
     <!-- End of Design section -->
 
     <!-- Testimonial -->
-    <section class="container content-home">
-        <h2 class="numbered-heading"> <span>06.</span> "Testimonial" </h2>
-
+    <section id="testimonial-section" class="container content-home">
+        <h2 class="numbered-heading"> <span>05.</span> "Testimonial" </h2>
         <div class="circle-new">
             <img src="../assets/images/Home/inverted-comma.png">
         </div>
-
-
         <div class="container testi-wrapper responsive">
             <div class="bg">
-
                 <div class="testimonial-left">
                     <h5 class="testimonial-small-text">What client says</h5>
-                    <p class="testimonial-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        imperdiet
-                        ligula
-                        vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel
-                        semper
-                        quam
-                        urna et eros. </p>
+                    <p class="testimonial-para">I hired Sneha as a Freelance Graphic Designer to create illustrative
+                        posts for Instagram and managed the insights.
+                        Sneha is conceptually creative, strategically-minded also has the skill to take up the
+                        responsibilities and finish in time. I have seen Sneha go above and beyond in completing the
+                        task and presenting appropriate solutions. She is a creative head, as she registered the
+                        requirements and delivered the deliverables as per need.</p>
                     <div class="d-flex">
                         <i class="fa fa-star fa-star" title="star"></i>
                         <i class="fa fa-star fa-star" title="star"></i>
@@ -680,23 +728,19 @@
                         <i class="fa fa-star fa-star" title="star"></i>
                     </div>
                     <div class="testi-footer">
-                        <h6 class="client-name">Alexa Nickson</h6>
-                        <p class="testimonial-desg">Social Media Manager</p>
+                        <h6 class="client-name">Gaurav Sharma</h6>
+                        <p class="testimonial-desg">Founder Imperial Tours</p>
                     </div>
                 </div>
             </div>
 
             <div class="bg">
-
                 <div class="testimonial-left">
                     <h5 class="testimonial-small-text">What client says</h5>
-                    <p class="testimonial-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        imperdiet
-                        ligula
-                        vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel
-                        semper
-                        quam
-                        urna et eros. </p>
+                    <p class="testimonial-para">It’s rare that you come across standout talent like Sneha. Extremely
+                        talented graphic designer and very efficient with completing work on time. She goes above an
+                        beyond to ensure the work is done correctly. Her influence on our mobile application has been
+                        special and we are looking forward to continue working with Sneha. </p>
                     <div class="d-flex">
                         <i class="fa fa-star fa-star" title="star"></i>
                         <i class="fa fa-star fa-star" title="star"></i>
@@ -705,23 +749,20 @@
                         <i class="fa fa-star fa-star" title="star"></i>
                     </div>
                     <div class="testi-footer">
-                        <h6 class="client-name">Alexa Nickson</h6>
-                        <p class="testimonial-desg">Social Media Manager</p>
+                        <h6 class="client-name">Godfrey T Bacheyie</h6>
+                        <p class="testimonial-desg">Project Manager</p>
                     </div>
                 </div>
             </div>
 
             <div class="bg">
-
                 <div class="testimonial-left">
                     <h5 class="testimonial-small-text">What client says</h5>
-                    <p class="testimonial-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        imperdiet
-                        ligula
-                        vitae suscipit dapibus. Nam mollis, leo non finibus rutrum, urna turpis blandit eros, vel
-                        semper
-                        quam
-                        urna et eros. </p>
+                    <p class="testimonial-para">Extremely satisfied with the service Sneha has provided, from social
+                        media handling to managing advertising campaign she has done a fantastic job. In the success of
+                        Delhi Hub, Sneha has contributed to her utmost. Would recommend her as she is hardworking and
+                        creative head.
+                    </p>
                     <div class="d-flex">
                         <i class="fa fa-star fa-star" title="star"></i>
                         <i class="fa fa-star fa-star" title="star"></i>
@@ -730,17 +771,59 @@
                         <i class="fa fa-star fa-star" title="star"></i>
                     </div>
                     <div class="testi-footer">
-                        <h6 class="client-name">Alexa Nickson</h6>
+                        <h6 class="client-name">Kamna Sharma</h6>
                         <p class="testimonial-desg">Social Media Manager</p>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
     <!-- End of testimonial -->
 
+    <!-- <section class="experience">
+    <div class="container content-home">
+        <h2 class="numbered-heading"> <span>06.</span> "My Experience" </h2>
+        <div class="tabs experience-content">
+            <ul id="tab-links">
+                <li><a href="#tab-1" class="active" title="Code">Delhi Hub</a></li>
+                <li><a href="#tab-2" title="Graphic Design &amp; Illustration">Push 2.0</a></li>
+                <li><a href="#tab-3" title="Web Design">Imperial Tours</a></li>
+                <li><a href="#tab-4" title="Business">Codiantic Labs</a></li>
+               
+            </ul>
+            
+            <section id="tab-1" class="active">
+                <h3>Code</h3>
+                
+                <p>Thousands of free tutorials and online courses to help you learn software development from mobile devices to web applications and everything in between.</p>
+                <p>Join our community to improve your coding skills and workflow. What would you like to learn?</p>
+            </section>
+            
+            <section id="tab-2">
+                <h3>Graphic Design &amp; Illustration</h3>
+                
+                <p>Keep up to date or learn a new skill with our graphic design and illustration content.</p>
+                <p>Ranging from Adobe Photoshop to drawing theory, from vector illustration to print design, we've got all experience levels covered.</p>
+            </section>
+            
+            <section id="tab-3">
+                <h3>Web Design</h3>
+                
+                <p>Free tutorials, learning guides, and online courses to help you learn web design.</p>
+                <p>Whether it’s interface design, UX, front-end development, motion design, accessibility, business, or something you’ve not yet discovered, our team of expert instructors have you covered!</p>
+            </section>
+            
+            <section id="tab-4">
+                <h3>Business</h3>
+                
+                <p>Do you need to learn a new business skill quickly? Discover how to start a profitable business, use the latest business software, and level up your career—with thousands of free business tutorials taught by expert instructors.</p>
+            </section>
+            
+        </div>
+    </div>
+</section> -->
     <!-- Contact + (projects done) -->
+
     <section id="contact-section">
         <div class="container content-home">
             <h2 class="numbered-heading"> <span>06.</span> "Contact Me" </h2>
@@ -755,7 +838,7 @@
                                 <h4>Clients</h4>
                                 <!-- <div class="number">6</div> -->
                                 <h3 class="number">6</h3>
-    
+
                             </div>
                             <div class="counter-right">
                                 <h4>Projects</h4>
@@ -781,8 +864,8 @@
                 <div class="wrap-contact">
                     <h3 class="contact-title">Get In Touch</h3>
                     <p class="contact-para">I'm currently looking for new opportunities and I'm always open to new
-                        projects, ideas, job opportunities and new connections. Whether you have a question or just want
-                        to say hi, I'll try my best to get back to you!</p>
+                        projects, ideas, job and new connections. Whether you have a question or just want
+                        to say hi, I'll get back to you!</p>
                     <div class="contact-info contact-det">
                         <p>Number: 9004369469 &nbsp; &nbsp;&nbsp;</p>
                         <p>Mail ID: snehabirodkar31@gmail.com</p>
@@ -832,7 +915,6 @@
     <!-- Typed.js -->
     <script src="../assets/script/typed.js/lib/typed.js"></script>
 
-
     <!-- Slick Carousel JS -->
     <script src="../assets/script/slick-1.8.1/slick/slick.min.js"></script>
 
@@ -842,18 +924,15 @@
     <!-- Magnific Popup -->
     <script src="../assets/script/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-
+    <!-- counter -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
+    <!--Custom Isotopes -->
+    <script src="../assets/script/isotopes.js"></script>
 
     <!-- Custom JS -->
     <script src="../assets/script/script.js"></script>
-    <script>
 
-    </script>
-
-    <script src="../assets/script/isotopes.js"></script>
 
 </body>
 
