@@ -3,7 +3,8 @@
                         PRELOADER JS
 *********************************************************/
 $(window).on('load',function(){
-    $("#preloader").delay(2000).fadeOut('slow');
+    $("#preloader").delay(500).fadeOut('slow');
+    clearForm();
     console.log("inside loader");
 });
 
@@ -28,8 +29,9 @@ function openMenu(){
     console.log("clicked");
     if(navpanel.classList.contains("closed")){
         console.log("inside closed");
-        navpanel.style.visibility = "visible";
+        
         navpanel.style.height = "100vh";
+        navpanel.style.visibility = "visible";
         navpanel.style.position = "fixed";
         navpanel.style.top="0";
         navpanel.style.bottom="0";
@@ -45,7 +47,7 @@ function openMenu(){
         // line1.style.transition = "all .3s ease-in-out";
         // line2.style.transition = "all .3s ease-in-out";
         // line3.style.transition = "all .3s ease-in-out";
-        line1.style.transform = "rotate(45deg) translate(10px,10px)"
+        line1.style.transform = "rotate(45deg) translate(10px,9px)"
         line2.style.visibility = "hidden";
         line3.style.transform = "rotate(-45deg) translate(7px,-8px)"
 
@@ -173,8 +175,7 @@ function myFunction() {
     }
   }
 
-
-
+// Reade  more script
 
 jQuery(document).ready(function ($) {
     $(".show-more-btn").click(function (e) {
@@ -187,3 +188,18 @@ jQuery(document).ready(function ($) {
     });
 });
 
+// clear fields
+ 
+ function clearForm(){
+    const name1 = document.getElementById('name').value = '';
+    const email = document.getElementById('email').value = '';
+    const message = document.getElementById('message').value = '';
+ }
+
+// Change year automatic
+const currentyear = document.getElementById("currentyear");
+var date = new Date();
+var year = new date.getFullYear();
+var fullYearText = "@" + year;
+
+currentyear.innerHTML = fullYearText;

@@ -9,14 +9,14 @@
 } */
 .s-dash {
   display: block;
-  padding: 1.15px 17px;
+  padding: 1px 17px;
   background: #fefefe;
   height: 1px;
   margin: 10.1px;
   border-radius: 10px;
 }
 
-.navigation .ham-btn {
+.ham-btn {
   position: fixed;
   top: 20px;
   right: 20px;
@@ -27,7 +27,7 @@
   z-index: 9999999;
 }
 
-.navigation .ham-btn span {
+.ham-btn span {
   /* position: absolute; */
   display: inline-block;
   padding: 1px 17px;
@@ -38,30 +38,14 @@
   background: #f5f5f5;
 }
 
-.line1 {
-  /* top: 30%; */
-}
-
-.line2 {
-  /* top: 50%; */
-
-  transform: translateY(-8px);
-}
-
-.line3 {
-  /* top: 70%; */
-  transform: translateY(-15px) rotate(0deg);
-}
-
-.navigation .links {
+.links {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-.navigation .links a {
+.links a {
   position: relative;
   display: inline-block;
   margin: 20px 0px;
@@ -73,7 +57,7 @@
   letter-spacing: 5px;
 }
 
-.navigation .links a:after {
+.links a:after {
   content: "";
   position: absolute;
   left: 0px;
@@ -85,7 +69,7 @@
 
 }
 
-.navigation .links a:hover:after {
+.links a:hover:after {
   width: 100%;
 }
 
@@ -94,12 +78,13 @@
   /* height: 100vh; */
   /* background-color: tomato; */
   visibility: hidden;
+  height: 0;
 }
 .nav-icon {
   display: inline-block;
   background: #299179;
   border-radius: 50%;
-  padding: 11px 8px;
+  padding: 15px 12px;
   position: fixed;
   top: 20px;
   right: 20px;
