@@ -1,21 +1,12 @@
 
-/*********************************************************
+/* ********************************************************
                         PRELOADER JS
-*********************************************************/
+******************************************************** */
 $(window).on('load',function(){
     $("#preloader").delay(500).fadeOut('slow');
     clearForm();
     console.log("inside loader");
 });
-
-
-// var loader = document.querySelector(".loader-wrapper")
-// window.addEventListener("load", vanish);
-
-// function vanish() {
-//   loader.classList.add("disppear");
-// }
-//   Navigation menu
 //   Navigation menu
 const nav = document.querySelector('.nav-icon');
 const text = document.querySelector('.links');
@@ -41,12 +32,7 @@ function openMenu(){
         navpanel.style.zIndex = "9999";
         navpanel.classList.remove("closed");
         navpanel.classList.add("opened");
-        // line1.style.transform = "rotate(45deg) translate(0px, 23px)";
-        // line3.style.transform = "rotate(-45deg) translate(7px, -29px)";
-        // line2.style.visibility = "hidden";
-        // line1.style.transition = "all .3s ease-in-out";
-        // line2.style.transition = "all .3s ease-in-out";
-        // line3.style.transition = "all .3s ease-in-out";
+       
         line1.style.transform = "rotate(45deg) translate(10px,9px)"
         line2.style.visibility = "hidden";
         line3.style.transform = "rotate(-45deg) translate(7px,-8px)"
@@ -62,12 +48,6 @@ function openMenu(){
         navpanel.classList.add("closed");
         navpanel.style.transition = "all .5s ease-in-out";
         navpanel.style.overflow ="hidden";
-        // line1.style.transform = "unset";
-        // line3.style.transform = "rotate(0deg) translateY(-15px)";
-        // line2.style.visibility = "visible";
-        // line1.style.transition = "all .3s ease-in-out";
-        // line2.style.transition = "all .3s ease-in-out";
-        // line3.style.transition = "all .3s ease-in-out";
         line1.style.transform = "unset"
 
         line3.style.transform = "unset"
@@ -86,12 +66,6 @@ function closeme(){
         navpanel.classList.add("closed");
         navpanel.style.transition = "all .5s ease-in-out";
         navpanel.style.overflow ="hidden";
-        // line1.style.transform = "unset";
-        // line3.style.transform = "rotate(0deg) translateY(-15px)";
-        // line2.style.visibility = "visible";
-        // line1.style.transition = "all .3s ease-in-out";
-        // line2.style.transition = "all .3s ease-in-out";
-        // line3.style.transition = "all .3s ease-in-out";
         line1.style.transform = "unset"
 
         line3.style.transform = "unset"
@@ -175,18 +149,6 @@ function myFunction() {
     }
   }
 
-// Reade  more script
-
-jQuery(document).ready(function ($) {
-    $(".show-more-btn").click(function (e) {
-        $(".show-more-item:hidden").slice(0).fadeIn();
-        if ($(".show-more-item:hidden").length < 1) $(this).fadeOut();
-    });
-    $(".show-less-btn").click(function (e) {
-        $(".show-more-item:hidden").slice(0).fadeIn();
-        if ($(".show-more-item:hidden").length < 1) $(this).fadeOut();
-    });
-});
 
 // clear fields
  
@@ -194,6 +156,8 @@ jQuery(document).ready(function ($) {
     const name1 = document.getElementById('name').value = '';
     const email = document.getElementById('email').value = '';
     const message = document.getElementById('message').value = '';
+    const radio2 = document.getElementById('radio2').checked = '';
+    const radio3 = document.getElementById('radio3').checked = '';
  }
 
 // Change year automatic

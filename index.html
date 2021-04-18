@@ -3,11 +3,22 @@
 
 <head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KZBQ6FZ');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KZBQ6FZ');
+    </script>
     <!-- End Google Tag Manager -->
     <!-- important meta tags -->
     <meta charset="utf-8">
@@ -29,42 +40,22 @@
     <!-- Slick Carousel CSS -->
     <link rel="stylesheet" href="./assets/script/slick-1.8.1/slick/slick.css">
 
-
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="./assets/style/magnific-popup/magnific-popup.min.css">
-
-    <!-- Animate CSS -->
-    
-    <link rel="stylesheet" href="./assets/style/animate.css/animate.min.css">
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
         crossorigin="anonymous" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/style/loader.css">
     <link rel="stylesheet" href="./assets/style/helper.css">
-    <link rel="stylesheet" href="./assets/style/home.css">
-    <link rel="stylesheet" href="./assets/style/about.css">
-    <link rel="stylesheet" href="./assets/style/skills.css">
-    <link rel="stylesheet" href="./assets/style/projects.css">
-    <link rel="stylesheet" href="./assets/style/extra-projects.css">
-    <link rel="stylesheet" href="./assets/style/design.css">
-    <link rel="stylesheet" href="./assets/style/testimonial.css">
-    <link rel="stylesheet" href="./assets/style/contact.css">
-    <link rel="stylesheet" href="./assets/style/footer.css">
-    <link rel="stylesheet" href="./assets/style/experience.css">
-    <link rel="stylesheet" href="./assets/style/nav.css">
-
+    <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/style/mobile-res.css">
 
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZBQ6FZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZBQ6FZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Loader -->
     <div class="loader-wrapper" id="preloader">
@@ -207,12 +198,13 @@
                                 <p> <strong>Department :</strong> Information Technology</p>
                                 <p> <strong>Email :</strong> snehabirodkar31@gmail.com</p>
                                 <p> <strong>Residence :</strong> Mumbai</p>
-                                <a href="./assets/sneha resume.pdf" target="_blank" class="get-in-touch">Resume</a>
+                                <a href="./assets/sneha resume.pdf" loading="lazy" target="_blank"
+                                    class="get-in-touch">Resume</a>
                             </div>
                         </div>
 
                         <div class="about-img text-center">
-                            <img src="./assets/images/Home/sneha.jpeg" alt="">
+                            <img src="./assets/images/Home/sneha.jpeg" loading="lazy" alt="Sneha Birodkar">
                         </div>
                     </div>
                 </div>
@@ -582,158 +574,69 @@
     </section>
     <!-- End of my work -->
 
-    <!-- Design Section -->
-    <section id="portfolio" class="content-home">
-        <div class="content-box-lg">
-            <div class="container">
-                <div class="row">
-                    <h2 class="numbered-heading"> <span>04.</span> "My Designs" </h2>
-
-                    <div id="isotope-filters" class="portfolio-btn text-center">
-                        <button class="btn active" data-filter="*"><span>ALL</span></button>
-                        <button class="btn" data-filter=".logo"><span>Logo</span></button>
-                        <button class="btn" data-filter=".ui"><span>UI/UX</span></button>
-                        <button class="btn" data-filter=".illustrations"><span>Illustrations</span></button>
+    <section id="portfolio">
+       <div class="content-home container">
+        <h2 class="numbered-heading"> <span>04.</span> "My Designs" </h2>
+        <div class="projects">
+            <div class="flex">
+                <div class="pro-wrapper">
+                    <div class="pro">
+                        <div class="img-wrapper">
+                            <img src="./assets/images/Designs/preview.png" alt="">
+                        </div>
+                        <div class="pro-info">
+                            <p>Home Cleaning</p>
+                            <p>This user interface is made on Adobe XD as a Home Cleaning app concept redesign.
+                                
+                            </p>
+                            <li><a href="https://www.behance.net/snehabirodkar" target="_blank"
+                                aria-label="Behance">
+                                <i class="fa fa-behance" title="Behance" aria-hidden="true"></i></a></li>
+                        </div>
                     </div>
-
+                </div>
+                
+                    <div class="pro-wrapper">
+                        <div class="pro">
+                            <div class="img-wrapper">
+                                <img src="./assets/images/Designs/download.jpg" alt="">
+                            </div>
+                            <div class="pro-info">
+                                <p>Food Delivery</p>
+                            <p>This user interface is made on Adobe XD as a Food delivery app concept redesign.
+                                
+                            </p>
+                            <li><a href="https://www.behance.net/snehabirodkar" target="_blank"
+                                aria-label="Behance">
+                                <i class="fa fa-behance" title="Behance" aria-hidden="true"></i></a></li>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <div class="pro-wrapper">
+                    <div class="pro">
+                        <div class="img-wrapper">
+                            <img src="./assets/images/Designs/dow2.jpg" alt="">
+                        </div>
+                        <div class="pro-info">
+                            <p>CocaCola app redesign </p>
+                            <p>This user interface is made on Adobe XD as a Home Cleaning app concept redesign.
+                                
+                            </p>
+                            <li><a href="https://www.behance.net/snehabirodkar" target="_blank"
+                                aria-label="Behance">
+                                <i class="fa fa-behance" title="Behance" aria-hidden="true"></i></a></li>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <section id="portfolio-wrapper">
-                <div class="container">
-                    <div id="isotope-container" class="d-flex">
-                        <div class="col-md-3 logo">
-                            <!--portfolio item-1-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/Delhi logo@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/Delhi logo@4x.png" alt="Delhi Hub"
-                                            class="image">
-                                        <div class="overlay">
-                                            <div class="text">Delhi Hub</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-1-->
-                        </div>
-
-                        <div class="col-md-3 logo">
-                            <!--portfolio item-2-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/imperial logo@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/imperial logo@4x.png" alt="Imperial Tours"
-                                            class="image">
-                                        <div class="overlay">
-                                            <div class="text">Imperial Tours</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-2-->
-                        </div>
-
-                        <div class="col-md-3 ui">
-                            <!--portfolio item-3-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/ui1@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/ui1@4x.png" alt="404 Screen" class="image">
-                                        <div class="overlay">
-                                            <div class="text">404 Screen</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-3-->
-                        </div>
-
-                        <div class="col-md-3 ui">
-                            <!--portfolio item-3-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/ui2@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/ui2@4x.png" alt="Restaurant" class="image">
-                                        <div class="overlay">
-                                            <div class="text">Restaurant</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-3-->
-                        </div>
-
-
-                        <div class="col-md-3 illustrations">
-                            <!--portfolio item-4-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/girl@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/girl@4x.png" alt="Girl" class="image">
-                                        <div class="overlay">
-                                            <div class="text">Girl</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-4-->
-                        </div>
-
-                        <div class="col-md-3 illustrations">
-                            <!--portfolio item-5-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/scenery@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/scenery@4x.png" alt="Desert Scene"
-                                            class="image">
-                                        <div class="overlay">
-                                            <div class="text">Desert Scene</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-5-->
-                        </div>
-
-                        <div class="col-md-3 illustrations">
-                            <!--portfolio item-6-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/scenery2@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/scenery2@4x.png" alt="Scenery" class="image">
-                                        <div class="overlay">
-                                            <div class="text">Scenery</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-6-->
-                        </div>
-
-                        <div class="col-md-3 illustrations">
-                            <!--portfolio item-7-->
-                            <div class="portfolio-item">
-                                <a href="./assets/images/Designs/doctor@4x.png">
-                                    <div class="portfolio-container">
-                                        <img src="./assets/images/Designs/doctor@4x.png" alt="Doctor" class="image">
-                                        <div class="overlay">
-                                            <div class="text">Doctor</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!--/portfolio item-7-->
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
+       </div>
     </section>
-    <!-- End of Design section -->
 
     <!-- Testimonial -->
     <section id="testimonial-section" class="container content-home">
-        <h2 class="numbered-heading"> <span>05.</span> "Testimonial" </h2>
+        <h2 class="numbered-heading"> <span>05.</span> "Happy Stories" </h2>
         <div class="circle-new">
             <img src="./assets/images/Home/inverted-comma.png">
         </div>
@@ -807,50 +710,6 @@
     </section>
     <!-- End of testimonial -->
 
-    <!-- <section class="experience">
-    <div class="container content-home">
-        <h2 class="numbered-heading"> <span>06.</span> "My Experience" </h2>
-        <div class="tabs experience-content">
-            <ul id="tab-links">
-                <li><a href="#tab-1" class="active" title="Code">Delhi Hub</a></li>
-                <li><a href="#tab-2" title="Graphic Design &amp; Illustration">Push 2.0</a></li>
-                <li><a href="#tab-3" title="Web Design">Imperial Tours</a></li>
-                <li><a href="#tab-4" title="Business">Codiantic Labs</a></li>
-               
-            </ul>
-            
-            <section id="tab-1" class="active">
-                <h3>Code</h3>
-                
-                <p>Thousands of free tutorials and online courses to help you learn software development from mobile devices to web applications and everything in between.</p>
-                <p>Join our community to improve your coding skills and workflow. What would you like to learn?</p>
-            </section>
-            
-            <section id="tab-2">
-                <h3>Graphic Design &amp; Illustration</h3>
-                
-                <p>Keep up to date or learn a new skill with our graphic design and illustration content.</p>
-                <p>Ranging from Adobe Photoshop to drawing theory, from vector illustration to print design, we've got all experience levels covered.</p>
-            </section>
-            
-            <section id="tab-3">
-                <h3>Web Design</h3>
-                
-                <p>Free tutorials, learning guides, and online courses to help you learn web design.</p>
-                <p>Whether it’s interface design, UX, front-end development, motion design, accessibility, business, or something you’ve not yet discovered, our team of expert instructors have you covered!</p>
-            </section>
-            
-            <section id="tab-4">
-                <h3>Business</h3>
-                
-                <p>Do you need to learn a new business skill quickly? Discover how to start a profitable business, use the latest business software, and level up your career—with thousands of free business tutorials taught by expert instructors.</p>
-            </section>
-            
-        </div>
-    </div>
-</section> -->
-    <!-- Contact + (projects done) -->
-
     <section id="contact-section">
         <div class="container content-home">
             <h2 class="numbered-heading"> <span>06.</span> "Contact Me" </h2>
@@ -900,9 +759,19 @@
                     </div>
                     <form action="https://formspree.io/f/xrgrbpad" method="POST">
                         <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
-                        <input name="Email" id="email" type="email" class="form-control" placeholder="Email" required>
-                        <textarea id="message" name="message" class="form-control-textarea"
-                            placeholder="Message" required></textarea><br>
+                        <input name="Email" id="email" type="email" class="form-control" placeholder="Email"
+                            required><br>
+                        <label><input id="radio1" class="uk-radio" type="radio" name="f_subject" value="General"
+                                checked="">
+                            General</label>
+                        <label><input id="radio2" class="uk-radio" type="radio" name="f_subject"
+                                value="Project Preview">
+                            Project Review</label>
+                        <label><input id="radio3" class="uk-radio" type="radio" name="f_subject" value="Hire Me">
+                            Inquiry</label>
+
+                        <textarea id="message" name="message" class="form-control-textarea" placeholder="Message"
+                            required></textarea><br>
                         <button type="submit" class="send-btn">Send</button>
                     </form>
 
@@ -935,12 +804,6 @@
     <!-- Slick Carousel JS -->
     <script src="./assets/script/slick-1.8.1/slick/slick.min.js"></script>
 
-    <!-- Isotope -->
-    <script src="./assets/script/isotope/isotope.pkgd.min.js"></script>
-
-    <!-- Magnific Popup -->
-    <script src="./assets/script/magnific-popup/jquery.magnific-popup.min.js"></script>
-
     <!-- counter -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
         integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
@@ -950,7 +813,6 @@
         crossorigin="anonymous"></script>
 
     <!--Custom Isotopes -->
-    <script src="./assets/script/isotopes.js"></script>
     <script src="https://www.google-analytics.com/analytics.js
     "></script>
 
