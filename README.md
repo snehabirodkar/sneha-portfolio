@@ -17,7 +17,7 @@ It consists of section such as:
 ## Elements Used
 
 1) [Slick Carousel](https://kenwheeler.github.io/slick/) - A user friendly carousel, having multiple styles and various versions of the carousel.
-2) [Tilt.js](https://gijsroge.github.io/tilt.js/) - A tiny requestAnimationFrame powered 60+fps lightweight parallax hover tilt effect for jQuery.
+
 2) [animation.css](https://animate.style/) - Provides simple subtle animation to increase the look and feel of the UI.
 
 ## Usage
