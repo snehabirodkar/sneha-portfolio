@@ -3,7 +3,7 @@
                         PRELOADER JS
 ******************************************************** */
 $(window).on('load',function(){
-    $("#preloader").delay(500).fadeOut('slow');
+    $("#preloader").delay(1000).fadeOut('slow');
     clearForm();
     console.log("inside loader");
 });
