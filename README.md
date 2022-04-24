@@ -21,4 +21,4 @@ It consists of section such as:
 2) [animation.css](https://animate.style/) - Provides simple subtle animation to increase the look and feel of the UI.
 
 ## Usage
-Click [here](https://www.snehabirodkar.ml/) for live link.
+Click [here](https://www.snehabirodkar.tk/) for live link.
